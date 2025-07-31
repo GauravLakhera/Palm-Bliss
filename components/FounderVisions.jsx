@@ -8,7 +8,7 @@ export default function FounderVisions({ founders }) {
       <div className="container mx-auto px-6 max-w-6xl">
         <div className="mb-2 flex justify-center">
           <img
-            src="/images/founder.jpeg"
+            src="/Images/founder.jpeg"
             alt="Founder of Palm Bliss Resort"
             className="rounded-xl shadow-lg max-h-72 object-cover"
           />
