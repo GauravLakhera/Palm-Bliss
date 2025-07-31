@@ -17,7 +17,7 @@ export default function FounderVisions({ founders }) {
         <h2 className="font-black text-4xl text-center mb-6 text-black tracking-tight leading-tight">
           Vision of the Founder
         </h2>
-        <p className="text-center text-xl font-thin italic mb-6 text-yellow-700 tracking-wide">
+        <p className="text-center text-xl italic mb-6 text-yellow-700 tracking-wide">
           The Palm Bliss Resort  “Arivandha – Where Peace Finds You.
         </p>
         <p className="text-justify text-md md:text-lg text-black leading-relaxed mb-5 font-normal">
