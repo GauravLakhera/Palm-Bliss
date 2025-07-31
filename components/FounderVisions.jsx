@@ -36,7 +36,7 @@ export default function FounderVisions({ founders }) {
           <div className="mb-3 space-y-1">
             <div className="flex items-center gap-2">
               <img
-                src="/images/icons/forest-wind.png"
+                src="/Images/icons/forest-wind.png"
                 alt="Forest Whispers"
                 className="w-6 h-6"
               />
@@ -46,7 +46,7 @@ export default function FounderVisions({ founders }) {
             </div>
             <div className="flex items-center gap-2">
               <img
-                src="/images/icons/leaf.png"
+                src="/Images/icons/leaf.png"
                 alt="Pure Oxygen"
                 className="w-6 h-6"
               />
@@ -56,7 +56,7 @@ export default function FounderVisions({ founders }) {
             </div>
             <div className="flex items-center gap-2">
               <img
-                src="/images/icons/heart-care.png"
+                src="/Images/icons/heart-care.png"
                 alt="Healing"
                 className="w-6 h-6"
               />
@@ -98,14 +98,14 @@ export default function FounderVisions({ founders }) {
         </p>
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 mb-10 mt-6">
           <div className="flex items-center gap-2">
-            <img src="/images/icons/yoga.png" alt="Yoga" className="w-6 h-6" />
+            <img src="/Images/icons/yoga.png" alt="Yoga" className="w-6 h-6" />
             <span className="font-semibold">
               Here, Yoga isn’t just exercise — it’s inner alignment.
             </span>
           </div>
           <div className="flex items-center gap-2">
             <img
-              src="/images/icons/leaf.png"
+              src="/Images/icons/leaf.png"
               alt="Naturopathy"
               className="w-6 h-6"
             />
@@ -115,7 +115,7 @@ export default function FounderVisions({ founders }) {
           </div>
           <div className="flex items-center gap-2">
             <img
-              src="/images/icons/meditation.png"
+              src="/Images/icons/meditation.png"
               alt="Meditation"
               className="w-6 h-6"
             />
@@ -125,7 +125,7 @@ export default function FounderVisions({ founders }) {
           </div>
           <div className="flex items-center gap-2">
             <img
-              src="/images/icons/wind.png"
+              src="/Images/icons/wind.png"
               alt="Spirituality"
               className="w-6 h-6"
             />
