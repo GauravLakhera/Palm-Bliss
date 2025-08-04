@@ -398,7 +398,11 @@ export default function RoomsSection() {
           <div
             key={room.id}
             className="cursor-pointer transition-all duration-200"
-            onClick={() => setOpenIdx(idx)}
+            // onClick={() => setOpenIdx(idx)}
+            onClick={(e) => {
+              e.stopPropagation();
+              setDetailedOpenIdx(idx);
+            }}
           >
             <Card className="h-full bg-white border-gray-200 hover:shadow-2xl transition-all duration-300 overflow-hidden">
               <RoomImageSlider images={room.images} />
