@@ -65,22 +65,23 @@ const HeroSection = ({
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-white text-[8vh] md:text-[6vw] font-bold drop-shadow-lg"
+          className="text-white text-[6vh] md:text-[6vw] font-bold drop-shadow-lg"
         >
           {welcomeHeading}
         </motion.h1>
         {showHeading=="true" && <h1 className="text-white text-xl">To</h1>}
 
         <div className="flex flex-col justify-center mb-2 items-center">
-          <BlurText
+          {/* <BlurText
             text="The Palm Bliss Resort"
             delay={150}
             animateBy="words"
             direction="top"
             onAnimationComplete={handleAnimationComplete}
-            className="text-4xl text-white font-playfair tracking-widest"
-          />
-          <h1 className="text-gray-200 text-4xl font-tangerine mt-1">
+            className="text-4xl text-white font-playfair text-center tracking-widest"
+          /> */}
+          <h1 className="text-2xl lg:text-4xl text-white font-playfair text-center tracking-widest">The Palm Bliss Resort</h1>
+          <h1 className="text-gray-200 text-4xl text-center font-tangerine mt-1">
             Adventure in jungle
           </h1>
         </div>

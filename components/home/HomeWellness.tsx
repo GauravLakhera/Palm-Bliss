@@ -14,7 +14,7 @@ export default function HomeWellness() {
   const router = useRouter();
   return (
     <section className="md:py-[10vh] py-10 bg-[#A67A35]">
-      <div className="mx-auto px-6 md:px-[8vw]">
+      <div className="mx-auto lg:px-6 md:px-[8vw]">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}

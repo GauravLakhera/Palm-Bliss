@@ -1,15 +1,16 @@
-'use client';
+"use client";
 
-import { useRef, useState, useEffect } from 'react';
-import Image from 'next/image';
+import { useRef, useState, useEffect } from "react";
+import Image from "next/image";
 
-import img from '@/public/Images/AllPhotos/DSC06389.webp';
-import img2 from '@/public/Images/AllPhotos/DSC06396.webp';
-import img3 from '@/public/Images/AllPhotos/DSC06399.webp';
-import img4 from '@/public/Images/AllPhotos/DSC06434.webp';
-import img5 from '@/public/Images/AllPhotos/DSC06460.webp';
-import img6 from '@/public/Images/AllPhotos/DSC06475.webp';
-import img7 from '@/public/Images/AllPhotos/DSC06521.webp';
+import img from "@/public/Images/AllPhotos/DSC06389.webp";
+import img2 from "@/public/Images/AllPhotos/DSC06396.webp";
+import img3 from "@/public/Images/AllPhotos/DSC06399.webp";
+import img4 from "@/public/Images/AllPhotos/DSC06434.webp";
+import img5 from "@/public/Images/AllPhotos/DSC06460.webp";
+import img6 from "@/public/Images/AllPhotos/DSC06475.webp";
+import img7 from "@/public/Images/AllPhotos/DSC06521.webp";
+import Link from "next/link";
 
 export default function HomeGallery() {
   const images = [
@@ -27,20 +28,17 @@ export default function HomeGallery() {
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
-      if (
-        modalRef.current &&
-        !modalRef.current.contains(e.target as Node)
-      ) {
+      if (modalRef.current && !modalRef.current.contains(e.target as Node)) {
         setSelectedImage(null);
       }
     };
 
     if (selectedImage) {
-      document.addEventListener('mousedown', handleClickOutside);
+      document.addEventListener("mousedown", handleClickOutside);
     }
 
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [selectedImage]);
 
@@ -52,7 +50,8 @@ export default function HomeGallery() {
             Our <span className="">Gallery</span>
           </h2>
           <p className="text-[3.5vw] md:text-[1.3vw] text-gray-600 max-w-[80vw] md:max-w-[50vw] mx-auto">
-            Discover the serene ambiance and natural elegance of our spaces through this visual journey.
+            Discover the serene ambiance and natural elegance of our spaces
+            through this visual journey.
           </p>
         </div>
 
@@ -74,10 +73,15 @@ export default function HomeGallery() {
               />
               <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <div className="absolute bottom-[2vh] left-[2vw] text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <p className="text-[3.5vw] md:text-[1.2vw] font-semibold">View Image</p>
+                <p className="text-[3.5vw] md:text-[1.2vw] font-semibold">
+                  View Image
+                </p>
               </div>
             </div>
           ))}
+        </div>
+        <div className="flex justify-center my-10 border px-3 py-2 w-max mx-auto border-yellow-700 hover:bg-yellow-700 hover:text-white ">
+          <Link href="/gallery">See More</Link>
         </div>
       </div>
 

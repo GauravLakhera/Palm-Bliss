@@ -65,10 +65,26 @@ export default function FounderVisions({ founders }) {
               </span>
             </div>
           </div>
+
+<p className="mt-2">The founder believes:</p>
+
+<ul className="my-3 space-y-1 list-disc list-inside">
+  <li className="font-semibold text-black">
+    When the world gets loud, we must return to the jungle.
+  </li>
+  <li className="font-semibold text-black">
+    When life feels heavy, we must walk barefoot on the earth.
+  </li>
+  <li className="font-semibold text-black">
+    When the soul is tired, silence is the greatest medicine.
+  </li>
+</ul>
+
+
           <p className="text-md md:text-lg text-black leading-relaxed font-normal mt-4">
-            Palm Bliss is built not with bricks alone, but with intention — to
-            nurture tired souls, awaken calmness, and rekindle the rhythm
-            between humans and nature.
+            Palm Bliss isn’t just a retreat. It’s a soul reset — Built not just
+            with mud and stone, but with conscious intention and deep-rooted
+            love for wellness, purity, and peace.
           </p>
           <div className="mt-4 space-y-1">
             <p className="text-black font-semibold">

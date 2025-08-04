@@ -40,6 +40,14 @@ const ALL_ROOMS = [
     amenities: ["Living Room", "Garden View", "Dining Area"],
     images: [mud3, mud2, mud1, mud4, mud5, mud6, mud7],
     features: [Wifi, Car, Coffee, Tv, Wind, Users],
+    detailedContent: {
+      title: "Embrace Earth, Embrace Peace",
+      description:
+        "Step into our handcrafted mud houses, where tradition meets comfort. Built with natural materials that breathe with you, these earthy sanctuaries remain cool in summer and warm in winter, connecting you deeply to nature's rhythm. The soft scent of clay, gentle textures, and calming silence create a cocoon of peace, letting you slow down, sleep deeply, and wake to birdsong and fresh air.\n\nHere, you don't just stay—you return to the earth, to yourself.",
+      poetry:
+        "Within these walls of living clay,\nSoft winds sing and petals sway.\nSunlight dances on earthen hues,\nCradling dreams in morning dews.\n\nCool as dawn, warm as dusk,\nBreathing earth in every musk.\nA nest where silence softly weaves,\nStories of rain and rustling leaves.\n\nHere, time unfolds like jasmine bloom,\nStars pour light into your room.\nBarefoot heart upon soft sod,\nYou touch the earth, you touch God.\n\nIn these quiet mud homes you'll find,\nA gentle stillness for your mind—\nA hush that heals, a breath so deep,\nHere, the earth will rock you to sleep.",
+      subtitle: "Earthen Sanctuaries, Whispering Calm",
+    },
   },
   {
     id: 4,
@@ -51,6 +59,13 @@ const ALL_ROOMS = [
     amenities: ["Yoga Mat", "Meditation Corner", "Tv", "Sound System"],
     images: [swiss1, swiss2],
     features: [Wifi, Car, Coffee, Tv, Wind, Users],
+    detailedContent: {
+      title: "Swiss Cottage at Palm Bliss Resort",
+      description:
+        "Discover the timeless elegance of our Swiss Cottage, where Alpine warmth meets tropical tranquility. Crafted with rich wooden interiors and vaulted ceilings, each cottage welcomes you with a sense of serene comfort and understated luxury. Sunlight streams through large windows, illuminating handcrafted furniture and creating a warm, inviting glow throughout the space.\n\nStep onto your private balcony, where the gentle rustle of palms and songs of birds create a natural symphony, perfect for a quiet sunrise tea or an evening under the stars. Inside, a plush king-sized bed with soft linens awaits, complemented by cozy seating nooks ideal for reading or reflection. Thoughtfully curated details—woven rugs, soft lighting, and earthy textures—bring the spirit of the Swiss Alps to the heart of your island retreat.\n\n Your en-suite bathroom offers a spa-like experience with a rain shower, premium amenities, and calming design, allowing you to refresh and rejuvenate in privacy.\n\nWhether you are seeking a romantic escape, a slow morning with nature, \n\nTucked amidst whispering palms and fragrant breezes, our Swiss Cottage invites you into a world where alpine warmth meets tropical calm. Crafted with sloping wooden ceilings and sun-kissed windows, each cottage feels like a comforting embrace, welcoming you to slow down and simply be. \n\nWake to soft light filtering through linen drapes as birdsong gently calls you into the day. Step onto your private balcony, where the rustle of leaves and distant mountain whispers create the perfect setting for your morning tea. Inside, the room blends rustic charm with gentle elegance—a plush king-sized bed dressed in crisp linens, handcrafted furniture, and cozy corners designed for quiet reflection or a good book.",
+      poetry:
+        "Whispers of wood and morning light,\nPalms sway softly, hearts feel right.\nA quiet nest where dreams take flight,\nIn cottage calm, the soul grows bright.",
+    },
   },
   {
     id: 6,
@@ -67,6 +82,21 @@ const ALL_ROOMS = [
     ],
     images: [family1, family2, family3, family4, family5],
     features: [Wifi, Car, Coffee, Tv, Wind, Users],
+    detailedContent: {
+      title: "Family Suite - Where Togetherness Blooms",
+      description:
+        "Create lasting memories in our thoughtfully designed Family Suite, where comfort meets convenience for the entire family. These spacious accommodations feature connecting rooms that provide both togetherness and privacy, allowing parents and children to enjoy their own space while staying close.\n\nDesigned with families in mind, the suite includes child-friendly amenities, safety features, and a dedicated play area where little ones can explore and play safely. Parents can relax knowing every detail has been considered for your family's comfort and peace of mind.\n\nWith ample space for family dining, cozy seating areas, and modern amenities, the Family Suite offers the perfect base for creating cherished moments together while enjoying the natural beauty and wellness experiences that Palm Bliss has to offer.",
+      features: [
+        "Spacious connecting rooms for privacy and togetherness",
+        "Child-safe furniture and fittings throughout",
+        "Dedicated play area with safe, engaging activities",
+        "Family dining space with comfortable seating",
+        "Modern amenities including Wi-Fi and entertainment systems",
+        "Childproofed electrical outlets and corners",
+        "Extra storage space for family belongings",
+        "Easy access to resort facilities and activities",
+      ],
+    },
   },
   {
     id: 8,
@@ -78,6 +108,23 @@ const ALL_ROOMS = [
     amenities: ["Mountain View", "Balcony", "King Bed", "Sitting Area"],
     images: [luxury1, luxury2, luxury3, luxury4],
     features: [Wifi, Car, Coffee, Tv, Wind, Users],
+    detailedContent: {
+      title: "Luxury Room at Palm Bliss - Where Comfort Meets Sophistication",
+      description:
+        "Step into a world of refined elegance with our Luxury Rooms at Palm Bliss. Thoughtfully designed for discerning travelers, each room is a blend of contemporary style and serene comfort. Large windows invite natural light and open up to lush green views, while interiors are crafted with soothing tones and premium furnishings.\n\nUnwind on a plush bed, enjoy modern amenities like smart TVs and high-speed Wi-Fi, and rejuvenate in a spacious en-suite bathroom with herbal toiletries. Whether you're here for a wellness retreat or a relaxing escape, the Luxury Room offers a perfect balance of privacy, calm, and understated opulence.",
+      keyFeatures: [
+        "King-size bed with premium bedding",
+        "Windows with garden or forest views",
+        "Elegant décor with warm earthy tones",
+        "Spacious bathroom with rain shower and organic amenities",
+        "In-room herbal tea & coffee setup",
+        "Air conditioning and smart climate control",
+        "Complimentary high-speed Wi-Fi",
+      ],
+      closing: "Let tranquility and luxury become your everyday at Palm Bliss.",
+      surrounding:
+        "Step into the emerald hush where sunbeams dance through ancient trees,\nEach breath alive with the scent of earth and wild lemongrass,\nBirdsong guides your path as leaves whisper their forest secrets,\nAnd every step draws you deeper into the gentle, green embrace of the jungle.\n✨",
+    },
   },
 ];
 
@@ -94,7 +141,7 @@ function RoomImageSlider({ images }) {
   };
 
   return (
-    <div className="relative w-full h-[32rem]  bg-gray-100 rounded-xl overflow-hidden">
+    <div className="relative w-full h-[32rem] bg-gray-100 rounded-xl overflow-hidden">
       <AnimatePresence mode="wait">
         <motion.div
           key={current}
@@ -140,7 +187,7 @@ function RoomImageSlider({ images }) {
 function RoomDetailModal({ room, open, onClose }) {
   if (!open || !room) return null;
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 px-2">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 md:px-2">
       <motion.div
         initial={{ scale: 0.94, opacity: 0, y: 100 }}
         animate={{ scale: 1, opacity: 1, y: 0 }}
@@ -192,8 +239,7 @@ function RoomDetailModal({ room, open, onClose }) {
               className="w-full bg-[#A67A35] hover:bg-[#8c672d] text-black font-semibold"
               onClick={onClose}
             >
-              {" "}
-              Close{" "}
+              Close
             </Button>
           </div>
         </div>
@@ -202,8 +248,137 @@ function RoomDetailModal({ room, open, onClose }) {
   );
 }
 
+function RoomDetailedModal({ room, open, onClose }) {
+  if (!open || !room) return null;
+
+  return (
+    <div className="fixed inset-0 z-50 bg-black/50 overflow-y-auto">
+      <div className="min-h-screen flex items-start justify-center p-4">
+        <motion.div
+          initial={{ scale: 0.94, opacity: 0, y: 100 }}
+          animate={{ scale: 1, opacity: 1, y: 0 }}
+          exit={{ scale: 0.94, opacity: 0, y: 100 }}
+          className="bg-white shadow-2xl rounded-2xl w-full md:w-[85vw] lg:w-[70vw] max-w-5xl relative my-8"
+        >
+          <button
+            onClick={onClose}
+            className="absolute right-6 top-6 text-gray-400 text-3xl font-bold z-10 hover:text-gray-600"
+            aria-label="Close Detailed Modal"
+          >
+            ×
+          </button>
+
+          <div className="w-full">
+            <RoomImageSlider images={room.images} />
+          </div>
+
+          <div className="p-4 md:p-8">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-3xl font-bold font-playfair text-[#A67A35] mb-6">
+                {room.detailedContent.title}
+              </h2>
+
+              {room.detailedContent.subtitle && (
+                <h3 className="text-xl text-center text-[#A67A35] mb-6 font-medium">
+                  {room.detailedContent.subtitle}
+                </h3>
+              )}
+
+              <div className="prose prose-lg max-w-none mb-8">
+                <p className="text-gray-700 leading-relaxed whitespace-pre-line text-base">
+                  {room.detailedContent.description}
+                </p>
+              </div>
+
+              {room.detailedContent.keyFeatures && (
+                <div className="mb-8">
+                  <h4 className="text-xl font-semibold text-gray-800 mb-4">
+                    Key Features:
+                  </h4>
+                  <ul className="space-y-2">
+                    {room.detailedContent.keyFeatures.map((feature, index) => (
+                      <li key={index} className="flex items-start gap-2">
+                        <span className="w-2 h-2 bg-[#A67A35] rounded-full mt-2 flex-shrink-0"></span>
+                        <span className="text-gray-700">{feature}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {room.detailedContent.features && (
+                <div className="mb-8">
+                  <h4 className="text-xl font-semibold text-gray-800 mb-4">
+                    Features:
+                  </h4>
+                  <ul className="space-y-2">
+                    {room.detailedContent.features.map((feature, index) => (
+                      <li key={index} className="flex items-start gap-2">
+                        <span className="w-2 h-2 bg-[#A67A35] rounded-full mt-2 flex-shrink-0"></span>
+                        <span className="text-gray-700">{feature}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {room.detailedContent.closing && (
+                <div className="mb-8">
+                  <p className="text-gray-700 leading-relaxed italic text-center text-lg">
+                    {room.detailedContent.closing}
+                  </p>
+                </div>
+              )}
+
+              {room.detailedContent.poetry && (
+                <div className="mb-8 p-6 bg-gray-50 rounded-lg">
+                  <pre className="text-gray-600 italic text-center leading-relaxed whitespace-pre-line font-serif">
+                    {room.detailedContent.poetry}
+                  </pre>
+                </div>
+              )}
+
+              {room.detailedContent.surrounding && (
+                <div className="mb-8">
+                  <h4 className="text-xl font-semibold text-gray-800 mb-4">
+                    Surrounding:
+                  </h4>
+                  <div className="p-4 bg-green-50 rounded-lg">
+                    <p className="text-gray-700 italic whitespace-pre-line leading-relaxed">
+                      {room.detailedContent.surrounding}
+                    </p>
+                  </div>
+                </div>
+              )}
+
+              <div className="flex gap-4 mt-8">
+                <Button
+                  className="flex-1 bg-[#A67A35] hover:bg-[#8c672d] text-black font-semibold"
+                  onClick={() => {
+                    // Handle booking logic
+                  }}
+                >
+                  Book Now - {room.price}/night
+                </Button>
+                <Button
+                  variant="outline"
+                  className="flex-1 border-[#A67A35] text-[#A67A35] hover:bg-[#A67A35] hover:text-white"
+                  onClick={onClose}
+                >
+                  Close
+                </Button>
+              </div>
+            </div>
+          </div>
+        </motion.div>
+      </div>
+    </div>
+  );
+}
+
 export default function RoomsSection() {
   const [openIdx, setOpenIdx] = useState(null);
+  const [detailedOpenIdx, setDetailedOpenIdx] = useState(null);
 
   return (
     <section className="bg-[#FBF7F0] py-[3vh] md:py-[12vh] px-3 md:px-[4vw]">
@@ -216,12 +391,13 @@ export default function RoomsSection() {
           sleep, holistic healing, and spiritual calm.
         </p>
       </div>
+
       {/* 2x2 grid, full width */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full">
         {ALL_ROOMS.map((room, idx) => (
           <div
             key={room.id}
-            className="cursor-pointer transition-all duration-200 "
+            className="cursor-pointer transition-all duration-200"
             onClick={() => setOpenIdx(idx)}
           >
             <Card className="h-full bg-white border-gray-200 hover:shadow-2xl transition-all duration-300 overflow-hidden">
@@ -262,36 +438,51 @@ export default function RoomsSection() {
                     <Feature key={i} className="h-4 w-4 text-[#A67A35]" />
                   ))}
                 </div>
-                <Button
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    // router.push(`/contact?id=${room.id}`);
-                  }}
-                  className="bg-[#A67A35] hover:bg-[#8c672d] text-black font-semibold"
-                >
-                  Book Now
-                </Button>
+
+                <div className="flex gap-2">
+                  <Button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      // router.push(`/contact?id=${room.id}`);
+                    }}
+                    className="flex-1 bg-[#A67A35] hover:bg-[#8c672d] text-black font-semibold"
+                  >
+                    Book Now
+                  </Button>
+                  <Button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setDetailedOpenIdx(idx);
+                    }}
+                    variant="outline"
+                    className="flex-1 border-[#A67A35] text-[#A67A35] hover:bg-[#A67A35] hover:text-white"
+                  >
+                    Learn More
+                  </Button>
+                </div>
               </CardContent>
             </Card>
           </div>
         ))}
       </div>
-      {/* Render the modal ONCE, after the grid */}
+
+      {/* Quick view modal */}
       <RoomDetailModal
         room={typeof openIdx === "number" ? ALL_ROOMS[openIdx] : null}
         open={typeof openIdx === "number"}
         onClose={() => setOpenIdx(null)}
       />
-      {/* <div className="text-center mt-[10vh]">
-        <button
-          onClick={() => {
-           
-          }}
-          className="bg-[#3c2f23] text-white text-[2.1vh] md:text-[1.2vw] font-medium px-8 py-3 md:px-[3vw] md:py-[1vw] rounded-full"
-        >
-          View All Rooms
-        </button>
-      </div> */}
+
+      {/* Detailed content modal */}
+      <RoomDetailedModal
+        room={
+          typeof detailedOpenIdx === "number"
+            ? ALL_ROOMS[detailedOpenIdx]
+            : null
+        }
+        open={typeof detailedOpenIdx === "number"}
+        onClose={() => setDetailedOpenIdx(null)}
+      />
     </section>
   );
 }

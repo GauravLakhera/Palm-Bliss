@@ -138,7 +138,7 @@ const FacilitiesGrid = () => {
           Discover the Unique Experiences at <br className="md:hidden" />
           <span>Palm Bliss</span>
         </h2>
-        <div className="px-10 py-5 font-inter text-lg leading-relaxed space-y-2 text-start">
+        <div className="  lg:px-10 py-5 font-inter text-lg leading-relaxed space-y-2 text-start">
           <p>
             At Palm Bliss Resort with Atharva Ayurveda Wellness Step into a
             sanctuary where every moment is a celebration of stillness, And

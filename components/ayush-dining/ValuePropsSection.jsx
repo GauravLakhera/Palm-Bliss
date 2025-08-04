@@ -57,7 +57,7 @@ export default function ValuePropsSection() {
     <section className="py-20 px-4 sm:px-6 bg-white">
       <div className="max-w-7xl mx-auto">
         <header className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-serif font-semibold text-yellow-700">
+          <h2 className="text-4xl md:text-5xl font-playfair font-semibold text-yellow-700">
             Sacred Food for Body &amp; Soul
           </h2>
           <div
@@ -75,9 +75,9 @@ export default function ValuePropsSection() {
               key={i}
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
-              className="group bg-[#f9f6f2] rounded-2xl overflow-hidden border border-[#e0d5c5] shadow transition hover:shadow-xl flex flex-col md:flex-row"
+              className="group bg-[#f9f6f2]  rounded-2xl overflow-hidden border border-[#e0d5c5] shadow transition hover:shadow-xl flex flex-col md:flex-row"
             >
-              <div className="relative md:w-2/5 h-full min-h-60">
+              <div className="relative w-full md:w-2/5 h-full min-h-60">
                 <Image
                   src={img}
                   alt={title}

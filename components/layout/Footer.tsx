@@ -142,16 +142,8 @@ const Footer = () => {
           transition={{ duration: 0.6, delay: 0.8 }}
           className="border-t border-gray-800 mt-[6vh] pt-[3vh] text-center"
         >
-          <p className="text-white font-[600] text-[3.5vw] md:text-[1vw] pb-5 md:pb-[1vw]">
-            © 2025 Palm Bliss Resort. All rights reserved. Powered by{" "}
-            <span
-              style={{
-                color: "#DD2C2B",
-              }}
-            >
-              Rank
-            </span>
-            mantra
+          <p className="text-white/70 font-[600] text-[3.5vw] md:text-[1vw] pb-5 md:pb-[1vw]">
+            © 2025 Palm Bliss Resort. All rights reserved.
           </p>
         </motion.div>
       </div>
