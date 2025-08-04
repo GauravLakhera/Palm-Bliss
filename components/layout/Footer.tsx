@@ -53,10 +53,10 @@ const Footer = () => {
             <ul className="space-y-[1vh]">
               {[
                 { name: "About Us", href: "/about" },
-                { name: "Rooms & Suites", href: "/rooms" },
-                { name: "Wellness Center", href: "/" },
-                { name: "Yoga Sessions", href: "/" },
-                { name: "Contact", href: "/" },
+                { name: "Accomidation", href: "/rooms" },
+                { name: "Ayush Dining", href: "/ayush-dining" },
+                { name: "Ayush Wellness", href: "/wellness" },
+                { name: "Contact", href: "/contact" },
               ].map((link) => (
                 <li key={link.name}>
                   <Link
