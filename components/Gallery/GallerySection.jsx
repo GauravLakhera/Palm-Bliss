@@ -29,6 +29,20 @@ import img21 from "@/public/Images/gallery/2.webp";
 import img22 from "@/public/Images/mudHouse/1.jpg";
 import img23 from "@/public/Images/mudHouse/2.jpg";
 import img24 from "@/public/Images/mudHouse/3.jpg";
+import img25 from "@/public/Images/gallery/19.jpg";
+import img26 from "@/public/Images/gallery/20.jpg";
+import img27 from "@/public/Images/gallery/21.jpg";
+import img28 from "@/public/Images/gallery/22.jpg";
+import img29 from "@/public/Images/gallery/23.jpg";
+import img30 from "@/public/Images/gallery/24.jpg";
+import img31 from "@/public/Images/gallery/25.jpg";
+import img32 from "@/public/Images/gallery/26.jpg";
+import img33 from "@/public/Images/gallery/27.jpg";
+import img34 from "@/public/Images/gallery/28.jpg";
+import img35 from "@/public/Images/gallery/29.jpg";
+import img36 from "@/public/Images/gallery/30.jpg";
+import img37 from "@/public/Images/gallery/31.jpg";
+import img38 from "@/public/Images/gallery/32.jpg";
 
 const galleryImages = [
   { src: img1, width: 800, height: 600, size: "medium" },
@@ -55,6 +69,14 @@ const galleryImages = [
   { src: img22, width: 900, height: 600, size: "wide" },
   { src: img23, width: 800, height: 600, size: "medium" },
   { src: img24, width: 700, height: 900, size: "tall" },
+  { src: img25, width: 700, height: 900, size: "tall" },
+  { src: img26, width: 700, height: 900, size: "tall" },
+  { src: img27, width: 900, height: 600, size: "wide" },
+  { src: img28, width: 800, height: 600, size: "medium" },
+  { src: img29, width: 700, height: 900, size: "tall" },
+  { src: img30, width: 700, height: 900, size: "tall" },
+  { src: img31, width: 900, height: 600, size: "wide" },
+  { src: img32, width: 800, height: 600, size: "medium" },
 ].map((img) => ({
   ...img,
   aspect: img.height / img.width,

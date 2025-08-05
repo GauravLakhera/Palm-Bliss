@@ -9,7 +9,7 @@ export default function Rooms() {
   return (
     <div>
       {/* Hero Section */}
-      <HeroSection showHeading="false" welcomeHeading="Accomidation" />
+      <HeroSection showHeading="false" welcomeHeading="Accommodation" />
 
       {/* Rooms Grid */}
       <HomeRooms />

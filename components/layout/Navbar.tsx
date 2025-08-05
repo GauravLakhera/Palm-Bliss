@@ -34,7 +34,7 @@ const Navbar = () => {
   const navItemsLeft = [
     { name: "Home", href: "/" },
     { name: "Our Legacy", href: "/about" },
-    { name: "Accomidation", href: "/rooms" },
+    { name: "Accommodation", href: "/rooms" },
     { name: "Ayush Dining", href: "/ayush-dining" },
   ];
 

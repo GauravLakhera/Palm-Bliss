@@ -23,6 +23,67 @@ const items = [
       "Enjoy an immersive experience staying in eco-friendly mud houses built using natural materials. Comfortable amenities are integrated while maintaining rustic charm.",
     size: "col-span-2 row-span-2",
     delay: "0s",
+    // Custom modal content for Mud House Stay
+    modalContent: (
+      <div className="text-gray-800 leading-relaxed">
+        <p className="mb-4">
+          Step into our handcrafted mud houses, where tradition meets comfort.
+          Built with natural materials that breathe with you, these earthy
+          sanctuaries remain cool in summer and warm in winter, connecting you
+          deeply to nature's rhythm. The soft scent of clay, gentle textures,
+          and calming silence create a cocoon of peace, letting you slow down,
+          sleep deeply, and wake to birdsong and fresh air.
+        </p>
+
+        <p className="mb-6 font-medium text-gray-900">
+          Here, you don't just stay—you return to the earth, to yourself.
+        </p>
+
+        <blockquote className="italic text-yellow-700 border-l-4 border-yellow-500 pl-6 py-4 mb-4 bg-yellow-50 rounded-r-lg">
+          <div className="leading-relaxed space-y-3">
+            <p>
+              Within these walls of living clay,
+              <br />
+              Soft winds sing and petals sway.
+              <br />
+              Sunlight dances on earthen hues,
+              <br />
+              Cradling dreams in morning dews.
+            </p>
+
+            <p>
+              Cool as dawn, warm as dusk,
+              <br />
+              Breathing earth in every musk.
+              <br />
+              A nest where silence softly weaves,
+              <br />
+              Stories of rain and rustling leaves.
+            </p>
+
+            <p>
+              Here, time unfolds like jasmine bloom,
+              <br />
+              Stars pour light into your room.
+              <br />
+              Barefoot heart upon soft sod,
+              <br />
+              You touch the earth, you touch God.
+            </p>
+
+            <p>
+              In these quiet mud homes you'll find,
+              <br />
+              A gentle stillness for your mind—
+              <br />
+              A hush that heals, a breath so deep,
+              <br />
+              Here, the earth will rock you to sleep.
+            </p>
+          </div>
+        </blockquote>
+      </div>
+    ),
   },
   {
     title: "Wellness Retreat & Yoga",
@@ -34,6 +95,31 @@ const items = [
       "Join daily yoga sessions suitable for all levels and personalized Ayurvedic therapies that detoxify and balance your body and mind in serene surroundings.",
     size: "col-span-2 row-span-3",
     delay: "0.1s",
+    // Example: Custom modal content for Wellness Retreat
+    modalContent: (
+      <div className="text-gray-800 leading-relaxed">
+        <p className="mb-4">
+          Join daily yoga sessions suitable for all levels and personalized
+          Ayurvedic therapies that detoxify and balance your body and mind in
+          serene surroundings.
+        </p>
+
+        <div className="bg-green-50 border-l-4 border-green-500 p-4 mb-4">
+          <h4 className="font-bold text-green-800 mb-2">What's Included:</h4>
+          <ul className="list-disc list-inside text-green-700 space-y-1">
+            <li>Daily sunrise yoga sessions</li>
+            <li>Personalized Ayurvedic consultations</li>
+            <li>Traditional meditation practices</li>
+            <li>Herbal wellness treatments</li>
+          </ul>
+        </div>
+
+        <p className="italic text-gray-600">
+          "In the embrace of nature, find your inner peace and restore your
+          natural balance."
+        </p>
+      </div>
+    ),
   },
   {
     title: "Ayush Dining",
@@ -44,6 +130,7 @@ const items = [
       "Dine on meals prepared using time-honored Ayurvedic recipes focusing on balance and nourishment. All ingredients are fresh and locally sourced.",
     size: "col-span-2 row-span-4",
     delay: "0.2s",
+    // This item will use default detailedDescription (no modalContent specified)
   },
   {
     title: "Trekking & Jungle Safari",
@@ -54,7 +141,48 @@ const items = [
       "Embark on a serene tracking journey into the lush jungle hills of Thano, where mist-laced trails wind through ancient sal forests, echoing with birdsong and the whispers of the breeze. Just steps from Palm Bliss Resort, this walk into the wild leads you through emerald canopies, hidden streams, and the earthy scent of rain-kissed leaves, reconnecting your soul with the untouched rhythms of nature.",
     size: "col-span-2 row-span-2",
     delay: "0.3s",
+    // Example: Custom adventure-themed content
+    modalContent: (
+      <div className="text-gray-800 leading-relaxed">
+        <p className="mb-4 font-semibold text-lg text-green-800">
+          Adventure Awaits in Nature's Playground
+        </p>
+
+        <p className="mb-4">
+          Embark on a serene tracking journey into the lush jungle hills of
+          Thano, where mist-laced trails wind through ancient sal forests,
+          echoing with birdsong and the whispers of the breeze.
+        </p>
+
+        <div className="grid md:grid-cols-2 gap-4 mb-4">
+          <div className="bg-green-50 p-4 rounded-lg">
+            <h4 className="font-bold text-green-800 mb-2">🥾 Trekking</h4>
+            <ul className="text-sm text-green-700 space-y-1">
+              <li>• Guided nature walks</li>
+              <li>• Bird watching tours</li>
+              <li>• Photography sessions</li>
+            </ul>
+          </div>
+          <div className="bg-orange-50 p-4 rounded-lg">
+            <h4 className="font-bold text-orange-800 mb-2">🦌 Safari</h4>
+            <ul className="text-sm text-orange-700 space-y-1">
+              <li>• Wildlife spotting</li>
+              <li>• Expert guides</li>
+              <li>• Available on request</li>
+            </ul>
+          </div>
+        </div>
+
+        <blockquote className="italic text-gray-600 border-l-4 border-green-500 pl-4">
+          "Just steps from Palm Bliss Resort, this walk into the wild leads you
+          through emerald canopies, hidden streams, and the earthy scent of
+          rain-kissed leaves, reconnecting your soul with the untouched rhythms
+          of nature."
+        </blockquote>
+      </div>
+    ),
   },
+  // Continue with other items...
   {
     title: "Activities",
     image: "/Images/AllPhotos/indoorGame1.webp",
@@ -74,12 +202,35 @@ const items = [
     delay: "0.5s",
   },
   {
-    title: "Cycling",
+    title: "Cycling Through Serenity",
     image: "/Images/cycling.webp",
     description:
-      "Enjoy scenic cycling trails through the lush landscape around Palm Bliss.",
-    detailedDescription:
-      "Breathe in the fresh mountain air as you cycle along peaceful trails winding through forests, meadows, and hills, perfect for all experience levels.",
+      "Cycle through the serene jungle paths and find peace, freshness, and freedom with every ride.",
+
+    modalContent: (
+      <div className="text-gray-800 leading-relaxed">
+        <p className="mb-4 font-semibold text-lg text-green-800">
+          Cycling Through Serenity
+        </p>
+
+        <p className="mb-4">
+          Glide through winding jungle paths, where sunlight dances on dewy
+          leaves and the air is rich with the scent of wild herbs. At Palm Bliss
+          Resort, cycling is more than just movement — it's a soulful journey
+          through nature's untouched beauty.
+        </p>
+
+        <p>
+          Feel the cool breeze kiss your face as you ride past bamboo groves,
+          chirping birds, and whispering trees.
+        </p>
+        <p>
+          Whether you're an early riser seeking a sunrise trail or a sunset
+          explorer chasing golden light, each ride brings peace, freshness, and
+          a deep breath of freedom.
+        </p>
+      </div>
+    ),
     size: "col-span-2 row-span-2",
     delay: "0.6s",
   },
@@ -87,7 +238,7 @@ const items = [
 
 const DetailModal = ({ item, onClose }) => {
   if (!item) return null;
-  // Modal is keyboard accessible; also closes on overlay click or Escape key
+
   return (
     <div
       className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70"
@@ -100,29 +251,39 @@ const DetailModal = ({ item, onClose }) => {
       }}
     >
       <div
-        className="bg-white rounded-lg max-w-3xl w-full p-6 relative"
+        className="bg-white rounded-lg max-w-4xl w-full p-6 relative max-h-[90vh] overflow-y-auto"
         onClick={(e) => e.stopPropagation()}
       >
         <button
           onClick={onClose}
           aria-label="Close modal"
-          className="absolute top-4 right-4 text-gray-700 hover:text-gray-900"
+          className="absolute top-4 right-4 text-gray-700 hover:text-gray-900 z-10"
         >
           <X size={24} />
         </button>
-        <h3 className="text-2xl font-bold mb-4">{item.title}</h3>
-        <div className="w-full aspect-[16/9] relative rounded-md overflow-hidden mb-4">
+
+        <h3 className="text-3xl font-bold mb-6 text-gray-900 pr-10">
+          {item.title}
+        </h3>
+
+        <div className="w-full aspect-[16/9] relative rounded-lg overflow-hidden mb-6 shadow-lg">
           <Image
             src={item.image}
             alt={item.title}
             fill
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             style={{ objectFit: "cover" }}
           />
         </div>
-        <p className="text-gray-800 leading-relaxed">
-          {item.detailedDescription}
-        </p>
+
+        {/* Flexible content rendering - Custom modalContent or fallback to detailedDescription */}
+        {item.modalContent ? (
+          item.modalContent
+        ) : (
+          <p className="text-gray-800 leading-relaxed text-lg">
+            {item.detailedDescription}
+          </p>
+        )}
       </div>
     </div>
   );
@@ -134,7 +295,7 @@ const FacilitiesGrid = () => {
   return (
     <section className="p-4 md:p-8 overflow-hidden" id="facilities">
       <div className=" w-full md:max-w-7xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-extrabold mb-12 text-center text-gray-800 tracking-tight leading-tight">
+        <h2 className="text-4xl md:text-5xl font-extrabold text-yellow-700/90 mb-12 text-center  tracking-tight leading-tight">
           Discover the Unique Experiences at <br className="md:hidden" />
           <span>Palm Bliss</span>
         </h2>

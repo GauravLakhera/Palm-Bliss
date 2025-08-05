@@ -90,9 +90,17 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-[1vw]">
                 <Phone className="h-[4vw] w-[4vw] md:h-[1.2vw] md:w-[1.2vw] text-royal-gold" />
-                <span className="text-gray-400 text-[3.5vw] md:text-[1.1vw]">
-                  +91 906 888 5323
-                </span>
+                <div className="flex flex-col">
+                  <span className="text-gray-400 text-[3.5vw] md:text-[1.1vw]">
+                    +91 906 888 5323 (Booking)
+                  </span>
+                  <span className="text-gray-400 text-[3.5vw] md:text-[1.1vw]">
+                    +91 94567 39672 (Manager)
+                  </span>
+                  <span className="text-gray-400 text-[3.5vw] md:text-[1.1vw]">
+                    +91 945 672 3756 (HelpLine)
+                  </span>
+                </div>
               </div>
               <div className="flex items-center space-x-[1vw]">
                 <Mail className="h-[4vw] w-[4vw] md:h-[1.2vw] md:w-[1.2vw] text-royal-gold" />
@@ -115,9 +123,9 @@ const Footer = () => {
             </h3>
             <div className="flex space-x-[2vw]">
               {[
-                { icon: Instagram, href: "#" },
-                { icon: Facebook, href: "#" },
-                { icon: Twitter, href: "#" },
+                { icon: Instagram, href: "https://www.instagram.com/thepalmblissresort/?hl=en" },
+                { icon: Facebook, href: "https://www.facebook.com/people/The-Palm-Bliss-Resort-Thano/61564917835095/#" },
+                // { icon: Twitter, href: "#" },
               ].map((social, index) => (
                 <Link
                   key={index}

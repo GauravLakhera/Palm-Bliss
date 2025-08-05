@@ -26,7 +26,7 @@ const foundersData = [
   return (
     <>
       <HeroSection
-        welcomeHeading="Our Legecy"
+        welcomeHeading="Our Legacy"
         showHeading="false"
       />
       <StorySection />

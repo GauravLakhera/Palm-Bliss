@@ -83,9 +83,9 @@ const ALL_ROOMS = [
     images: [family1, family2, family3, family4, family5],
     features: [Wifi, Car, Coffee, Tv, Wind, Users],
     detailedContent: {
-      title: "Family Suite - Where Togetherness Blooms",
+      title: "Family Room – Twin Comfort, Triple Joy at Palm Bliss Resort",
       description:
-        "Create lasting memories in our thoughtfully designed Family Suite, where comfort meets convenience for the entire family. These spacious accommodations feature connecting rooms that provide both togetherness and privacy, allowing parents and children to enjoy their own space while staying close.\n\nDesigned with families in mind, the suite includes child-friendly amenities, safety features, and a dedicated play area where little ones can explore and play safely. Parents can relax knowing every detail has been considered for your family's comfort and peace of mind.\n\nWith ample space for family dining, cozy seating areas, and modern amenities, the Family Suite offers the perfect base for creating cherished moments together while enjoying the natural beauty and wellness experiences that Palm Bliss has to offer.",
+        "Perfect for families seeking space and serenity,\nour Family Room offers two interconnected rooms with a total of three comfortable beds, ideal for a relaxed and harmonious stay.\n\nSurrounded by the calming greenery of the resort, this setup ensures both privacy and togetherness — a balance every family appreciates.Whether you're traveling with kids, parents, or close companions, there’s room for everyone to unwind, laugh, and make memories.",
       features: [
         "Spacious connecting rooms for privacy and togetherness",
         "Child-safe furniture and fittings throughout",
@@ -383,7 +383,7 @@ export default function RoomsSection() {
   return (
     <section className="bg-[#FBF7F0] py-[3vh] md:py-[12vh] px-3 md:px-[4vw]">
       <div className="text-center space-y-[5vh] mx-auto mb-12">
-        <h2 className="text-[6vw] md:text-[2.8vw] font-playfair font-bold text-[#000] leading-tight">
+        <h2 className="text-[6vw] md:text-[2.8vw] text-yellow-700/90 font-playfair font-bold  leading-tight">
           Stay In <span>Harmony & Comfort</span>
         </h2>
         <p className="text-[2vh] md:text-[1.2vw] text-gray-700 leading-relaxed mx-auto">
