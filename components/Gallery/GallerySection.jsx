@@ -37,12 +37,7 @@ import img29 from "@/public/Images/gallery/23.jpg";
 import img30 from "@/public/Images/gallery/24.jpg";
 import img31 from "@/public/Images/gallery/25.jpg";
 import img32 from "@/public/Images/gallery/26.jpg";
-import img33 from "@/public/Images/gallery/27.jpg";
-import img34 from "@/public/Images/gallery/28.jpg";
-import img35 from "@/public/Images/gallery/29.jpg";
-import img36 from "@/public/Images/gallery/30.jpg";
-import img37 from "@/public/Images/gallery/31.jpg";
-import img38 from "@/public/Images/gallery/32.jpg";
+
 
 const galleryImages = [
   { src: img1, width: 800, height: 600, size: "medium" },
