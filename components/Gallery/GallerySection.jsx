@@ -39,6 +39,7 @@ import img31 from "@/public/Images/gallery/25.jpg";
 import img32 from "@/public/Images/gallery/26.jpg";
 
 
+
 const galleryImages = [
   { src: img1, width: 800, height: 600, size: "medium" },
   { src: img2, width: 600, height: 900, size: "tall" },
