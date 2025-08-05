@@ -85,17 +85,17 @@ const ALL_ROOMS = [
     detailedContent: {
       title: "Family Room – Twin Comfort, Triple Joy at Palm Bliss Resort",
       description:
-        "Perfect for families seeking space and serenity,\nour Family Room offers two interconnected rooms with a total of three comfortable beds, ideal for a relaxed and harmonious stay.\n\nSurrounded by the calming greenery of the resort, this setup ensures both privacy and togetherness — a balance every family appreciates.Whether you're traveling with kids, parents, or close companions, there’s room for everyone to unwind, laugh, and make memories.",
-      features: [
-        "Spacious connecting rooms for privacy and togetherness",
-        "Child-safe furniture and fittings throughout",
-        "Dedicated play area with safe, engaging activities",
-        "Family dining space with comfortable seating",
-        "Modern amenities including Wi-Fi and entertainment systems",
-        "Childproofed electrical outlets and corners",
-        "Extra storage space for family belongings",
-        "Easy access to resort facilities and activities",
-      ],
+        "Perfect for families seeking space and serenity,\nour Family Room offers two interconnected rooms with a total of three comfortable beds, ideal for a relaxed and harmonious stay.\n\nSurrounded by the calming greenery of the resort, this setup ensures both privacy and togetherness — a balance every family appreciates.Whether you're traveling with kids, parents, or close companions, there’s room for everyone to unwind, laugh, and make memories.\n\nDesigned for bonding, built for comfort.Our Family Room is a spacious haven nestled in nature — where every corner invites laughter, warmth, and connection.\nEnjoy plush bedding, cozy interiors, and soothing natural tones that reflect the calm of the surrounding forest.\nLarge windows welcome fresh mountain air and serene views, while thoughtful amenities ensure every family member feels at home.\n\nWhether you're sharing stories over tea or waking up to birdsong together, the Family Room is your perfect retreat to reconnect, relax, and rejoice — all under one roof.\n\nThoughtful interiors, natural light, and modern amenities complete your stay — where every moment feels like home, just more peaceful with great pahadi touch.",
+      // features: [
+      //   // "Spacious connecting rooms for privacy and togetherness",
+      //   // "Child-safe furniture and fittings throughout",
+      //   // "Dedicated play area with safe, engaging activities",
+      //   // "Family dining space with comfortable seating",
+      //   // "Modern amenities including Wi-Fi and entertainment systems",
+      //   // "Childproofed electrical outlets and corners",
+      //   // "Extra storage space for family belongings",
+      //   // "Easy access to resort facilities and activities",
+      // ],
     },
   },
   {

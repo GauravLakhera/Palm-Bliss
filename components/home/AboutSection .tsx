@@ -14,7 +14,7 @@ const AboutSection = () => {
         {/* Brand Section */}
         <div className="space-y-3">
           <p className="text-xl md:text-2xl text-gray-700 font-semibold">
-            <span className="text-3xl md:text-4xl font-playfair text-black">
+            <span className="text-3xl md:text-4xl font-playfair text-yellow-700/90">
               THE PALM BLISS RESORT
             </span>
           </p>
@@ -59,7 +59,7 @@ const AboutSection = () => {
           wisdom.
         </motion.p>
 
-        <h1 className="text-xl md:text-2xl font-bold tracking-normal font-inter flex items-center justify-center gap-2">
+        <h1 className="text-xl text-yellow-700/90 md:text-2xl font-bold tracking-normal font-inter flex items-center justify-center gap-2">
           <GiLotus className="text-yellow-700" size={26} />A Journey into
           Tranquility
         </h1>
@@ -77,7 +77,7 @@ const AboutSection = () => {
           grown with care, served with love.
         </motion.p>
 
-        <h1 className="text-xl md:text-2xl font-bold tracking-normal font-inter flex items-center justify-center gap-2">
+        <h1 className="text-xl md:text-2xl text-yellow-700/90 font-bold tracking-normal font-inter flex items-center justify-center gap-2">
           <WiDaySunny className="text-yellow-700" size={26} />
           Stay, Breathe, Become
         </h1>
@@ -94,7 +94,7 @@ const AboutSection = () => {
           reminder to rest, And every dawn, a promise of renewal.
         </motion.p>
 
-        <h1 className="text-xl md:text-2xl font-bold tracking-normal font-inter flex items-center justify-center gap-2">
+        <h1 className="text-xl md:text-2xl text-yellow-700/90 font-bold tracking-normal font-inter flex items-center justify-center gap-2">
           <PiDiamondsFourFill  className="text-yellow-700" size={26} />
           Our Philosophy
         </h1>

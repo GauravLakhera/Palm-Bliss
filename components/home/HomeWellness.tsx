@@ -40,24 +40,58 @@ export default function HomeWellness() {
                 index % 2 === 1 ? "md:flex-row-reverse" : ""
               } items-center gap-10 bg-white shadow-xl rounded-3xl overflow-hidden p-6 md:p-12`}
             >
-              <div className="w-full md:w-1/2 rounded-xl overflow-hidden shadow-md">
-                <Image
-                  src={
-                    index === 0
-                      ? "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                      : index === 1
-                      ? "https://images.pexels.com/photos/3985263/pexels-photo-3985263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                      : "https://images.pexels.com/photos/3985254/pexels-photo-3985254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                  }
-                  alt="Wellness Treatment"
-                  width={800}
-                  height={500}
-                  className="object-cover bg-center w-full h-[25vh] md:h-[45vh] rounded-xl"
-                />
-              </div>
+<div className="w-full md:w-1/2 rounded-xl overflow-hidden shadow-md">
+  {index === 2 ? (
+    // Three images grid for the last section
+    <div className="space-y-4">
+      {/* Main large image */}
+      <div className="w-full">
+        <Image
+          src="https://images.pexels.com/photos/3985254/pexels-photo-3985254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt="Body Mind Spirit Rejuvenation"
+          width={800}
+          height={400}
+          className="object-cover bg-center w-full h-[20vh] md:h-[50vh] rounded-xl"
+        />
+      </div>
+      
+      {/* Two smaller images in a grid */}
+      <div className="grid grid-cols-1 gap-4">
+        <Image
+          src="https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt="Wellness Treatment 1"
+          width={400}
+          height={300}
+          className="object-cover bg-center w-full h-[15vh] md:h-[50vh] rounded-xl"
+        />
+        <Image
+          src="https://images.pexels.com/photos/3985263/pexels-photo-3985263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt="Wellness Treatment 2"
+          width={400}
+          height={300}
+          className="object-cover bg-center w-full h-[15vh] md:h-[50vh] rounded-xl"
+        />
+      </div>
+    </div>
+  ) : (
+    // Single image for other sections
+    <Image
+      src={
+        index === 0
+          ? "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          : "https://images.pexels.com/photos/3985263/pexels-photo-3985263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      }
+      alt="Wellness Treatment"
+      width={800}
+      height={500}
+      className="object-cover bg-center w-full h-[25vh] md:h-[45vh] rounded-xl"
+    />
+  )}
+</div>
+
 
               <div className="w-full md:w-1/2">
-                <h3 className="text-[4.8vw] md:text-[2vw] font-playfair font-bold text-[#3c2f23] mb-4 flex items-center gap-2">
+                <h3 className="text-[4.8vw] md:text-[2vw] font-playfair font-bold text-yellow-700/90 mb-4 flex items-center gap-2">
                   {index === 0 ? (
                     <>
                       <FaSpa className="text-[#A67A35] mb-1 w-7 h-7 md:w-8 md:h-8 lg:w-9 lg:h-9" />

@@ -130,6 +130,43 @@ const items = [
       "Dine on meals prepared using time-honored Ayurvedic recipes focusing on balance and nourishment. All ingredients are fresh and locally sourced.",
     size: "col-span-2 row-span-4",
     delay: "0.2s",
+    modalContent: (
+      <div className="text-gray-800 leading-relaxed">
+        <p className="mb-4 font-semibold text-lg text-yellow-700/80">
+          Ayush Dining – A Sacred Meal, A Healing Moment
+        </p>
+
+        <p className="">
+          At Palm Bliss Resort & Atharva Ayurveda Wellness Retreat
+        </p>
+        <p className="my-1">
+          Step into Ayush Dining, where food becomes medicine, memory, and
+          meditation. Rooted in Ayurvedic principles and crafted with love, each
+          meal is a celebration of purity, balance, and seasonal nourishment.
+        </p>
+        <p className="my-1">
+          Savor traditional Pahadi thalis, sattvic delicacies, and herbal
+          infusions — all prepared with fresh, local ingredients, infused with
+          healing intent. From copper vessels to clay pots, every detail honors
+          ancient wisdom and mindful living.
+        </p>
+
+        <p className="my-1">
+          Dine under the open sky or in calming, earth-toned interiors — where
+          every bite restores your body, quiets your mind, and uplifts your
+          soul.
+        </p>
+
+        <p className="my-1">
+          This isn’t just dining. It’s nourishment aligned with nature, culture,
+          and your inner rhythm.
+        </p>
+
+        <p className="my-3 ">
+          Welcome to Ayush — where you eat to heal, live to glow.
+        </p>
+      </div>
+    ),
     // This item will use default detailedDescription (no modalContent specified)
   },
   {
@@ -262,7 +299,7 @@ const DetailModal = ({ item, onClose }) => {
           <X size={24} />
         </button>
 
-        <h3 className="text-3xl font-bold mb-6 text-gray-900 pr-10">
+        <h3 className="text-3xl font-bold mb-6 text-yellow-700/90 pr-10">
           {item.title}
         </h3>
 
