@@ -38,7 +38,7 @@ const values = [
     title: "Sacred Dining Experience",
     desc:
       "Dine under the open sky or in calming, earth-toned interiors — where every bite restores your body, quiets your mind, and uplifts your soul.",
-    img: "/images/open-dining.webp",
+    img: "/Images/open-dining.webp",
   },
   {
     icon: RiShieldStarFill,

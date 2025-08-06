@@ -30,7 +30,7 @@ const systems = [
   {
     title: "Ayush Dining",
     image:
-      "/images/AllPhotos/ayushDining.webp",
+      "/images/gallery/13.webp",
     description:
       "Experience sattvic food that heals from within, served with love and mountain air",
   },

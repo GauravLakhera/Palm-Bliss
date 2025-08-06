@@ -11,7 +11,7 @@ const testimonials = [
     name: "SK Yadav",
     rated: "5/5",
     title: "Yoga Enthusiast",
-    image: "/images/reviews/2.png",
+    image: "/Images/reviews/2.png",
     message:
       "It was a great experience in Palm Bliss resort with a peaceful environment, the staff was very cooperative, humble and helpful, the quality of food was very good, the rooms were very comfortable and clean, it is located in a lush green environment and there were so many things to do like tracking, cycling and game activities.overall it was a great experience to stay at palm bliss resort.",
   },
@@ -19,7 +19,7 @@ const testimonials = [
     name: "SK Yadav",
     title: "Wellness Blogger",
     rated: "5/5",
-    image: "/images/reviews/3.png",
+    image: "/Images/reviews/3.png",
     message:
       "The place was good, entire property was covered with nature. It`s for completely family and friends group resort for stay vacation in the beauty of hills. Food and service was also good.",
   },
@@ -27,7 +27,7 @@ const testimonials = [
     name: "Rohan Singh",
     rated: "4/5",
     title: "Corporate Trainer",
-    image: "/images/reviews/4.png",
+    image: "/Images/reviews/4.png",
     message: `Very beautiful place
 Cozy and warm experience
 Delicious Food
@@ -39,7 +39,7 @@ Nice ambience❤️`,
     rated: "5/5",
     name: "Shweta Verma",
     title: "Travel Influencer",
-    image: "/images/reviews/5.png",
+    image: "/Images/reviews/5.png",
     message:
       "Very cozy and warm hospitality, delicious food, middle of jungle and Relaxing spa facilities",
   },
