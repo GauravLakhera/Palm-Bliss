@@ -16,7 +16,7 @@ const testimonials = [
       "It was a great experience in Palm Bliss resort with a peaceful environment, the staff was very cooperative, humble and helpful, the quality of food was very good, the rooms were very comfortable and clean, it is located in a lush green environment and there were so many things to do like tracking, cycling and game activities.overall it was a great experience to stay at palm bliss resort.",
   },
   {
-    name: "SK Yadav",
+    name: "Aman Bhatt",
     title: "Wellness Blogger",
     rated: "5/5",
     image: "/Images/reviews/3.png",
@@ -90,11 +90,11 @@ export default function Testimonials() {
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}
-              className="px-[2vw]"
+              className="px-[2vw] h-full"
             >
-              <div className="bg-white rounded-[2vw] p-[4vw] md:p-[2vw] shadow-lg h-full">
-                <div className="flex items-center gap-[2vw] mb-[2vh]">
-                  <div className="w-[10vw] h-[10vw] md:w-[3vw] md:h-[3vw] rounded-full overflow-hidden">
+              <div className="bg-white/10 rounded-[2vw] p-[4vw] md:p-[2vw] shadow-lg h-[450px] md:h-[350px] flex flex-col">
+                <div className="flex items-center gap-[2vw] mb-[2vh] flex-shrink-0">
+                  <div className="w-[10vw] h-[10vw] md:w-[3vw] md:h-[3vw] rounded-full overflow-hidden flex-shrink-0">
                     <Image
                       src={t.image}
                       alt={t.name}
@@ -104,18 +104,20 @@ export default function Testimonials() {
                       priority
                     />
                   </div>
-                  <div>
-                    <h4 className="text-[4vw] md:text-[1.2vw] font-semibold text-black">
+                  <div className="flex-grow">
+                    <h4 className="text-[4vw] md:text-[1.2vw] h-max font-semibold text-white">
                       {t.name}
                     </h4>
-                    <p className="text-[3vw] md:text-[0.9vw] text-gray-500">
+                    <p className="text-[3vw] md:text-[0.9vw] text-gray-200">
                       {t.rated}
                     </p>
                   </div>
                 </div>
-                <p className="text-gray-700 text-[3.5vw] md:text-[1.1vw] leading-relaxed">
-                  {t.message}
-                </p>
+                <div className="flex-grow overflow-hidden">
+                  <p className="text-gray-100 font-light text-[3.5vw] md:text-[1.1vw] leading-relaxed h-full">
+                    {t.message}
+                  </p>
+                </div>
               </div>
             </motion.div>
           ))}
