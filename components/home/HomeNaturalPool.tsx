@@ -13,8 +13,8 @@ export default function HomeNaturalPool() {
       <div className="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         {/* Left Content */}
         <div>
-          <h2 className="text-4xl md:text-5xl font-bold font-playfair text-royal-gold  mb-6">
-            Refresh by the <span className="text-royal-gold">Pool</span>
+          <h2 className="text-4xl md:text-5xl font-bold font-playfair text-yellow-700/90 mb-6">
+            Refresh by the <span>Pool</span>
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed mb-8">
             At The Palm Bliss, our cosy jungle-fringed pools invite both

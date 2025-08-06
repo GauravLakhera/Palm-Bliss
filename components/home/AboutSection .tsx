@@ -60,7 +60,7 @@ const AboutSection = () => {
         </motion.p>
 
         <h1 className="text-xl text-yellow-700/90 md:text-2xl font-bold tracking-normal font-inter flex items-center justify-center gap-2">
-          <GiLotus className="text-yellow-700" size={26} />A Journey into
+          <GiLotus className="text-yellow-700" size={26} />A Journey Into
           Tranquility
         </h1>
 

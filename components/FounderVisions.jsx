@@ -14,7 +14,7 @@ export default function FounderVisions({ founders }) {
           />
         </div>
         <h1 className="text-center">Ms. Shivani Agarwal</h1>
-        <h2 className="font-black text-4xl text-center mb-6 text-black tracking-tight leading-tight">
+        <h2 className="font-black text-4xl text-center mb-6 text-yellow-700/90 tracking-tight leading-tight">
           Vision of the Founder
         </h2>
         <p className="text-center text-xl italic mb-6 text-yellow-700 tracking-wide">

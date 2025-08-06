@@ -66,7 +66,7 @@ const ValuesSection = () => (
                   <value.icon className="h-7 w-7 text-royal-gold" />
                 </div>
                 <div className="pl-12">
-                  <h3 className="text-2xl font-semibold font-playfair text-gray-800 mb-2">
+                  <h3 className="text-2xl font-semibold font-playfair text-yellow-700/90 mb-2">
                     {value.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed whitespace-pre-line">

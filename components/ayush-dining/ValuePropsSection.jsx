@@ -11,6 +11,7 @@ import {
   RiShieldStarFill,
 } from "react-icons/ri";
 import { GiIndianPalace, GiWorld, GiHerbsBundle } from "react-icons/gi";
+import { FaLeaf } from "react-icons/fa";
 
 import img1 from "@/public/Images/ayush-dining/1.jpg";
 import img2 from "@/public/Images/ayush-dining/2.jpg";
@@ -19,32 +20,32 @@ import img4 from "@/public/Images/ayush-dining/4.jpg";
 
 const values = [
   {
-    icon: GiIndianPalace,
-    title: "Indian Vegan Menu for Wellness Programs",
+    icon: FaLeaf,
+    title: "Traditional Pahadi Thalis & Sattvic Delicacies",
     desc:
-      "Dedicated to Indian tourists visiting the Ayurvedic Wellness Retreat in Uttarakhand. This menu blends traditional Indian flavors, regional specialties, and modern vegan cuisine while ensuring health-conscious options are available. All dishes are designed to align with the wellness retreat’s values, offering innovative, wholesome meals for Indian tourists.",
-    img: "https://media.istockphoto.com/id/953638668/photo/vegan-sweet-potato-chickpea-curry-in-wooden-bowl-on-light-background-top-view-copy-space.jpg?s=612x612&w=0&k=20&c=wJW4TWzpVj2ATVurnySbUKhHmRI3jDiAGoricQBxZTk=",
-  },
-  {
-    icon: GiWorld,
-    title: "Global Vegan Delights for Wellness Programs",
-    desc:
-      "A curated menu featuring famous and innovative vegan dishes from around the world tailored for international guests visiting Uttarakhand. The menu blends wellness-focused meals, global flavours, and regional specialties, offering a balanced and inclusive dining experience.",
-    img:"https://media.istockphoto.com/id/1087301166/photo/grilled-tofu-and-dragon-fruit-buddha-bowl-with-vegetable-and-humus.jpg?s=612x612&w=0&k=20&c=RQaLRWfUscbnArdeQgb6sLJmrgmjDJecfkO-zlvJHfs=",
+      "Savor traditional Pahadi thalis, sattvic delicacies, and herbal infusions — all prepared with fresh, local ingredients, infused with healing intent.",
+    img: "https://i.pinimg.com/1200x/de/12/58/de125845a48533cfa066aedb279bf5db.jpg",
   },
   {
     icon: GiHerbsBundle,
-    title: "Ayurvedic Nutrition Plan",
+    title: "Ancient Wisdom & Mindful Living",
     desc:
-      "Customized dosha-based meals (Vata, Pitta, Kapha) incorporating seasonal Himalayan superfoods like moringa, amla, ashwagandha. Designed to restore internal balance and support daily Ayurvedic routines.",
-    img: "https://media.istockphoto.com/id/528460531/photo/indian-masale.jpg?s=612x612&w=0&k=20&c=XUhQtJnZfBJZpkzeY6xnD2_NKLx55zmcPM61GVhFAU8=",
+      "From copper vessels to clay pots, every detail honors ancient wisdom and mindful living.",
+    img: "https://i.pinimg.com/736x/58/dd/63/58dd6391d028266da2b5483556cc3775.jpg",
+  },
+  {
+    icon: GiWorld,
+    title: "Sacred Dining Experience",
+    desc:
+      "Dine under the open sky or in calming, earth-toned interiors — where every bite restores your body, quiets your mind, and uplifts your soul.",
+    img: "/images/open-dining.webp",
   },
   {
     icon: RiShieldStarFill,
-    title: "Purity & Preparation Principles",
+    title: "Nourishment Aligned with Nature",
     desc:
-      "All meals are prepared using copper utensils, spring water, and strictly natural ingredients — no refined sugar, no additives. Ganga-jal and traditional slow-cook techniques preserve nutrients and purity.",
-    img: img4.src,
+      "This isn't just dining. It's nourishment aligned with nature, culture, and your inner rhythm. Welcome to Ayush — where you eat to heal, live to glow.",
+    img:"https://i.pinimg.com/736x/e8/df/88/e8df8852e2ff81c6d9669e15f6af1023.jpg",
   },
 ];
 
@@ -58,14 +59,14 @@ export default function ValuePropsSection() {
       <div className="max-w-7xl mx-auto">
         <header className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-playfair font-semibold text-yellow-700">
-            Sacred Food for Body &amp; Soul
+            A Sacred Meal, A Healing Moment
           </h2>
           <div
             className="mt-4 w-24 h-1 mx-auto"
             style={{ backgroundColor: "#A67A35" }}
           />
-          <p className="max-w-2xl mx-auto mt-6 text-lg text-gray-600">
-            Conscious vegan meals crafted with Himalayan purity — perfectly aligned with yoga &amp; Ayurveda.
+          <p className="max-w-3xl mx-auto mt-6 text-lg text-gray-600">
+            Step into Ayush Dining, where food becomes medicine, memory, and meditation. Rooted in Ayurvedic principles and crafted with love, each meal is a celebration of purity, balance, and seasonal nourishment.
           </p>
         </header>
 
@@ -75,14 +76,14 @@ export default function ValuePropsSection() {
               key={i}
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
-              className="group bg-[#f9f6f2]  rounded-2xl overflow-hidden border border-[#e0d5c5] shadow transition hover:shadow-xl flex flex-col md:flex-row"
+              className="group bg-[#f9f6f2] rounded-2xl overflow-hidden border border-[#e0d5c5] shadow transition hover:shadow-xl flex flex-col md:flex-row"
             >
               <div className="relative w-full md:w-2/5 h-full min-h-60">
                 <Image
                   src={img}
                   alt={title}
                   fill
-                  className="object-cover border-r-2  border-black transition-transform duration-500 ease-out group-hover:scale-105"
+                  className="object-cover border-r-2 border-black transition-transform duration-500 ease-out group-hover:scale-105"
                   sizes="(max-width:768px) 100vw, 33vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-black/20 to-transparent" />

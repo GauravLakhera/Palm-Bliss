@@ -13,7 +13,7 @@ const page = () => {
                 showHeading="false"
             />
 
-{/* <AyushDiningSection/> */}
+<AyushDiningSection/>
             <ValuePropsSection />
             <USPSection />
         </>

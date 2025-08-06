@@ -23,7 +23,7 @@ const StorySection = () => (
           <Crown className="w-5 h-5 text-[#C0A46B]" />
           <span className="text-sm font-medium text-[#8A6D3B] tracking-wider">LEGACY OF ELEGANCE</span>
         </div>
-        <h2 className="text-4xl md:text-6xl font-playfair font-bold text-[#333333]">
+        <h2 className="text-4xl md:text-6xl font-playfair font-bold text-yellow-700/90">
           Our <span className="">Story</span>
         </h2>
       </motion.div>

@@ -181,7 +181,7 @@ const items = [
     // Example: Custom adventure-themed content
     modalContent: (
       <div className="text-gray-800 leading-relaxed">
-        <p className="mb-4 font-semibold text-lg text-green-800">
+        <p className="mb-4 font-semibold text-lg text-yellow-700/90">
           Adventure Awaits in Nature's Playground
         </p>
 
@@ -190,7 +190,7 @@ const items = [
           Thano, where mist-laced trails wind through ancient sal forests,
           echoing with birdsong and the whispers of the breeze.
         </p>
-
+{/* 
         <div className="grid md:grid-cols-2 gap-4 mb-4">
           <div className="bg-green-50 p-4 rounded-lg">
             <h4 className="font-bold text-green-800 mb-2">🥾 Trekking</h4>
@@ -208,7 +208,7 @@ const items = [
               <li>• Available on request</li>
             </ul>
           </div>
-        </div>
+        </div> */}
 
         <blockquote className="italic text-gray-600 border-l-4 border-green-500 pl-4">
           "Just steps from Palm Bliss Resort, this walk into the wild leads you
@@ -246,7 +246,7 @@ const items = [
 
     modalContent: (
       <div className="text-gray-800 leading-relaxed">
-        <p className="mb-4 font-semibold text-lg text-green-800">
+        <p className="mb-4 font-semibold text-lg text-yellow-700/90">
           Cycling Through Serenity
         </p>
 

@@ -46,7 +46,7 @@ export default function HomeGallery() {
     <section className="md:py-[10vh] py-10 bg-white">
       <div className="w-[90vw] max-w-[1200px] mx-auto px-[2vw]">
         <div className="text-center mb-[5vh]">
-          <h2 className="text-[6vw] md:text-[3vw] font-playfair font-bold text-black mb-[1.5vh]">
+          <h2 className="text-[6vw] md:text-[3vw] font-playfair font-bold text-yellow-700/90 mb-[1.5vh]">
             Our <span className="">Gallery</span>
           </h2>
           <p className="text-[3.5vw] md:text-[1.3vw] text-gray-600 max-w-[80vw] md:max-w-[50vw] mx-auto">

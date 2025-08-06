@@ -64,7 +64,7 @@ export default function USPSection() {
 
             <div className="max-w-7xl mx-auto text-center relative z-10">
                 <h2
-                    className="text-4xl md:text-5xl font-serif font-bold text-white mb-6"
+                    className="text-4xl md:text-5xl font-playfair font-bold text-white mb-6"
                     data-aos="fade-down"
                     data-aos-delay="100"
                 >

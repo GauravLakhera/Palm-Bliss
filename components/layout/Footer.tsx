@@ -53,7 +53,7 @@ const Footer = () => {
             <ul className="space-y-[1vh]">
               {[
                 { name: "About Us", href: "/about" },
-                { name: "Accomidation", href: "/rooms" },
+                { name: "Accommodation", href: "/rooms" },
                 { name: "Ayush Dining", href: "/ayush-dining" },
                 { name: "Ayush Wellness", href: "/wellness" },
                 { name: "Contact", href: "/contact" },
