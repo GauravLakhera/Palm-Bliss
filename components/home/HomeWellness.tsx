@@ -132,7 +132,7 @@ In the calm silence of the Shivalik foothills, where prana (life force) pulses t
                     : <>
                         A Journey Back to Wholeness at The Palm Bliss Resort & Atharva Ayurveda Wellness Retreat Step into a sacred space where ancient Ayurvedic wisdom meets nature’s serenity. Here, healing is not just a treatment — it is a gentle unfolding, a return to your most authentic, vibrant self. Our Signature Rejuvenation Rituals are crafted to realign the body, calm the mind, and reawaken the soul — creating a harmonious balance that radiates from within.
                         <div className="mt-4 mb-3">
-                          <div className="flex items-center gap-2 font-semibold">
+                          <div className="flex items-center gap-2 text-yellow-700/90 font-semibold">
                             <FaLeaf className="text-[#A67A35] w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" /> Body Renewal
                           </div>
                         </div>
@@ -155,7 +155,7 @@ In the calm silence of the Shivalik foothills, where prana (life force) pulses t
                         Let your body feel light, open, and deeply nourished.
 
                         <div className="mt-4 mb-3">
-                          <div className="flex items-center gap-2 font-semibold">
+                          <div className="flex text-yellow-700/90 items-center gap-2 font-semibold">
                             <FaBrain className="text-[#A67A35] w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" /> Mind Clarity
                           </div>
                         </div>
@@ -174,7 +174,7 @@ In the calm silence of the Shivalik foothills, where prana (life force) pulses t
                         A gentle reset for your thoughts, your focus, and your emotional peace.
 
                         <div className="mt-4 mb-3">
-                          <div className="flex items-center gap-2 font-semibold">
+                          <div className="flex text-yellow-700/90 items-center gap-2 font-semibold">
                             <GiMeditation className="text-[#A67A35] w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" /> Soul Nourishment
                           </div>
                         </div>
@@ -192,7 +192,7 @@ In the calm silence of the Shivalik foothills, where prana (life force) pulses t
                         </div>
                         Feel joy rise, purpose return, and your soul realign with serenity.
 
-                        <div className="mt-4 mb-3 font-semibold flex items-center gap-2">
+                        <div className="mt-4 mb-3 font-semibold flex items-center gap-2 text-yellow-700/90">
                           <FaSpa className="text-[#A67A35] w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" /> Personalized for Your Inner Balance
                         </div>
                         Every journey begins with a one-on-one Ayurvedic consultation, where your dosha (constitution) and elemental imbalances are assessed. Your treatments are then carefully tailored using pure, organic, and ethically sourced ingredients, prepared according to ancient Ayurvedic texts and seasonal rhythms.
