@@ -47,7 +47,7 @@ const Footer = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="space-y-[2vh]"
           >
-            <h3 className="text-[4.5vw] md:text-[1.5vw] font-playfair font-semibold text-royal-gold">
+            <h3 className="text-[4.5vw] md:text-[1.5vw] font-playfair font-semibold text-yellow-600/90">
               Quick Links
             </h3>
             <ul className="space-y-[1vh]">
@@ -77,7 +77,7 @@ const Footer = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="space-y-[2vh]"
           >
-            <h3 className="text-[4.5vw] md:text-[1.5vw] font-playfair font-semibold text-royal-gold">
+            <h3 className="text-[4.5vw] md:text-[1.5vw] font-playfair font-semibold text-yellow-600/90">
               Contact Info
             </h3>
             <div className="space-y-[1.5vh]">
@@ -118,7 +118,7 @@ const Footer = () => {
             transition={{ duration: 0.6, delay: 0.6 }}
             className="space-y-[2vh]"
           >
-            <h3 className="text-[4.5vw] md:text-[1.5vw] font-playfair font-semibold text-royal-gold">
+            <h3 className="text-[4.5vw] md:text-[1.5vw] font-playfair font-semibold text-yellow-600/90">
               Follow Us
             </h3>
             <div className="flex space-x-[2vw]">

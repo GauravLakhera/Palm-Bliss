@@ -383,7 +383,7 @@ export default function RoomsSection() {
   return (
     <section className="bg-[#FBF7F0] py-[3vh] md:py-[12vh] px-3 md:px-[4vw]">
       <div className="text-center space-y-[5vh] mx-auto mb-12">
-        <h2 className="text-[6vw] md:text-[2.8vw] text-yellow-700/90 font-playfair font-bold  leading-tight">
+        <h2 className="text-[6vw] md:text-[2.8vw] uppercase text-yellow-700/90 font-playfair font-bold  leading-tight">
           Stay In <span>Harmony & Comfort</span>
         </h2>
         <p className="text-[2vh] md:text-[1.2vw] text-gray-700 leading-relaxed mx-auto">
@@ -407,11 +407,11 @@ export default function RoomsSection() {
             <Card className="h-full bg-white border-gray-200 hover:shadow-2xl transition-all duration-300 overflow-hidden">
               <RoomImageSlider images={room.images} />
               <CardContent className="p-6">
-                <h3 className="text-xl md:text-2xl font-playfair font-bold text-black mb-2">
+                <h3 className="text-xl md:text-2xl font-playfair font-bold text-yellow-700/90 mb-2">
                   {room.title}
                 </h3>
                 <div className="mb-2">
-                  <Badge className="bg-[#A67A35] text-black font-semibold">
+                  <Badge className="bg-yellow-700/90 text-white font-semibold">
                     {room.price}/night
                   </Badge>
                 </div>
@@ -449,7 +449,7 @@ export default function RoomsSection() {
                       e.stopPropagation();
                       // router.push(`/contact?id=${room.id}`);
                     }}
-                    className="flex-1 bg-[#A67A35] hover:bg-[#8c672d] text-black font-semibold"
+                    className="flex-1 bg-yellow-700/90 hover:bg-[#8c672d] text-white font-semibold"
                   >
                     Book Now
                   </Button>
