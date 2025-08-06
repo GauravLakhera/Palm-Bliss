@@ -16,7 +16,7 @@ const testimonials = [
       "It was a great experience in Palm Bliss resort with a peaceful environment, the staff was very cooperative, humble and helpful, the quality of food was very good, the rooms were very comfortable and clean, it is located in a lush green environment and there were so many things to do like tracking, cycling and game activities.overall it was a great experience to stay at palm bliss resort.",
   },
   {
-    name: "Aman Bhatt",
+    name: "SK Yadav",
     title: "Wellness Blogger",
     rated: "5/5",
     image: "/Images/reviews/3.png",
@@ -66,7 +66,7 @@ export default function Testimonials() {
   };
 
   return (
-    <section className="py-10 md:py-[10vh] bg-yellow-700/80">
+    <section className="py-10 md:py-[10vh] bg-white">
       <div className="w-[90vw] max-w-[120vw] mx-auto px-[2vw]">
         <motion.div
           initial={{ opacity: 0, y: 5 }}
@@ -74,10 +74,10 @@ export default function Testimonials() {
           transition={{ duration: 0.7 }}
           className="text-center mb-[6vh]"
         >
-          <h2 className="text-[6vw] md:text-[3vw] font-playfair font-bold text-white mb-[1.5vh]">
+          <h2 className="text-[6vw] md:text-[3vw] font-playfair font-bold text-yellow-700/90 mb-[1.5vh]">
             What People <span className="">Say</span>
           </h2>
-          <p className="text-[3.5vw] md:text-[1.3vw] text-gray-100 max-w-[80vw] md:max-w-[50vw] mx-auto">
+          <p className="text-[3.5vw] md:text-[1.3vw] text-gray-700 max-w-[80vw] md:max-w-[50vw] mx-auto">
             Hear from our valued guests who have experienced peace, beauty, and
             rejuvenation
           </p>
@@ -92,7 +92,7 @@ export default function Testimonials() {
               transition={{ duration: 0.5 }}
               className="px-[2vw] h-full"
             >
-              <div className="bg-white/10 rounded-[2vw] p-[4vw] md:p-[2vw] shadow-lg h-[450px] md:h-[350px] flex flex-col">
+              <div className="bg-white rounded-[2vw] p-[4vw] md:p-[2vw] shadow-lg h-[450px] md:h-[350px] flex flex-col">
                 <div className="flex items-center gap-[2vw] mb-[2vh] flex-shrink-0">
                   <div className="w-[10vw] h-[10vw] md:w-[3vw] md:h-[3vw] rounded-full overflow-hidden flex-shrink-0">
                     <Image
@@ -105,16 +105,16 @@ export default function Testimonials() {
                     />
                   </div>
                   <div className="flex-grow">
-                    <h4 className="text-[4vw] md:text-[1.2vw] h-max font-semibold text-white">
+                    <h4 className="text-[4vw] md:text-[1.2vw] h-max font-semibold text-black">
                       {t.name}
                     </h4>
-                    <p className="text-[3vw] md:text-[0.9vw] text-gray-200">
+                    <p className="text-[3vw] md:text-[0.9vw] text-gray-500">
                       {t.rated}
                     </p>
                   </div>
                 </div>
                 <div className="flex-grow overflow-hidden">
-                  <p className="text-gray-100 font-light text-[3.5vw] md:text-[1.1vw] leading-relaxed h-full">
+                  <p className="text-gray-700 text-[3.5vw] md:text-[1.1vw] leading-relaxed h-full">
                     {t.message}
                   </p>
                 </div>

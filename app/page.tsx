@@ -9,7 +9,7 @@ import HomeNaturalPool from "@/components/home/HomeNaturalPool";
 import HomeGallery from "@/components/home/HomeGallery";
 import Testimonials from "@/components/home/testimonials";
 import FacilitiesGrid from "@/components/home/FacilitiesGrid";
-
+import  Footer from "@/components/Footer"
 export default function Home() {
   return (
     <div className="min-h-screen">
@@ -22,6 +22,7 @@ export default function Home() {
       <HomeNaturalPool />
       <HomeGallery />
       <Testimonials />
+      <Footer/>
       {/* <ViewsSection /> */}
       {/* <CuisineSection /> */}
       {/* <FacilitiesSection /> */}
