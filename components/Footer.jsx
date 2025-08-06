@@ -73,7 +73,7 @@ export default function Footer() {
             </ul>
           </nav>
 
-          <div className="max-w-2xl border border-yellow-600 rounded-md py-2 mx-auto">
+          <div className="max-w-2xl border border-yellow-600/50 rounded-md py-2 mx-auto">
             <h3 className="text-xl md:text-2xl font-semibold mb-4">
               Get Latest Update
             </h3>
