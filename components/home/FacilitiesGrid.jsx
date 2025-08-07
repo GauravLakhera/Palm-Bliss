@@ -332,8 +332,8 @@ const FacilitiesGrid = () => {
   return (
     <section className="p-4 md:p-8 overflow-hidden" id="facilities">
       <div className=" w-full md:max-w-7xl mx-auto">
-        <h2 className="text-4xl md:text-5xl uppercase font-extrabold text-yellow-700/90 mb-12 text-center  tracking-tight leading-tight">
-          Discover the Unique Experiences at <br className="md:hidden" />
+        <h2 className="text-4xl md:text-5xl  font-semibold text-yellow-700/90 mb-12 text-center  tracking-tight leading-tight">
+          Discover The Unique Experiences At <br className="md:hidden" />
           <span>Palm Bliss</span>
         </h2>
         <div className="  lg:px-10 py-5 font-inter text-lg leading-relaxed space-y-2 text-start">
@@ -373,7 +373,7 @@ const FacilitiesGrid = () => {
             Stay wrapped in the warm embrace of nature, Where luxury wears the
             robe of simplicity, And comfort flows gently like a mountain stream.
           </p>
-          <p className="text-center italic text-yellow-700 font-tangerine text-4xl font-bold">
+          <p className="text-center italic py-2 text-yellow-700 font-alegreya  text-2xl">
             At Palm Bliss and Atharva, You don’t just stay — You heal, You
             breathe, You become whole again.
           </p>

@@ -21,8 +21,8 @@ export default function HomeWellness() {
           transition={{ duration: 0.8 }}
           className="text-center mb-[10vh]"
         >
-          <h2 className="text-[6vw] md:text-[2.8vw] uppercase font-playfair font-bold text-white leading-tight">
-            Discover the <span className="text-white">healing power </span> of wellness
+          <h2 className="text-[6vw] md:text-[2.8vw] capitalize font-playfair font-semibold text-white leading-tight">
+            Discover The <span className="text-white">healing power </span> of wellness
           </h2>
           <p className="text-[2.3vh] md:text-[1.1vw] text-gray-200 mx-auto mt-4 font-medium">
             Immerse yourself in an oasis of serenity. Our wellness offerings combine ancient healing techniques with modern comfort to deliver a truly revitalizing experience.
@@ -91,7 +91,7 @@ export default function HomeWellness() {
 
 
               <div className="w-full md:w-1/2">
-                <h3 className="text-[4.8vw] uppercase md:text-[2vw] font-playfair font-bold text-yellow-700/90 mb-4 flex items-center gap-2">
+                <h3 className="text-[4.8vw]  md:text-[2vw]  font-alegreya italic font-medium text-yellow-700/90 mb-4 flex items-center gap-2">
                   {index === 0 ? (
                     <>
                       <FaSpa className="text-[#A67A35] mb-1 w-7 h-7 md:w-8 md:h-8 lg:w-9 lg:h-9" />
@@ -105,7 +105,7 @@ export default function HomeWellness() {
                   ) : (
                     <>
                       <PiFlowerLotus className="text-[#A67A35] mb-1 w-7 h-7 md:w-8 md:h-8 lg:w-9 lg:h-9" />
-                      Body, Mind & Spirit Rejuvenation
+                      Body, Mind & Soul Rejuvenation
                     </>
                   )}
                 </h3>

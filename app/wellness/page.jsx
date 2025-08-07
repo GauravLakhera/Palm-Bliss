@@ -9,7 +9,7 @@ import AyushWellnessSection from "@/components/wellness/AyushWellnessSection";
 export default function Wellness() {
   return (
     <div>
-      <HeroSection welcomeHeading="WELLNESS" />
+      <HeroSection welcomeHeading="AYUSH WELLNESS" />
       <AyushWellnessProgramSection />
       <AyushWellnessSection />
       {/* <Treatments /> */}

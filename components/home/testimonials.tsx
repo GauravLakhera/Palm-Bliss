@@ -16,7 +16,7 @@ const testimonials = [
       "It was a great experience in Palm Bliss resort with a peaceful environment, the staff was very cooperative, humble and helpful, the quality of food was very good, the rooms were very comfortable and clean, it is located in a lush green environment and there were so many things to do like tracking, cycling and game activities.overall it was a great experience to stay at palm bliss resort.",
   },
   {
-    name: "SK Yadav",
+    name: "Aman Bhatt",
     title: "Wellness Blogger",
     rated: "5/5",
     image: "/Images/reviews/3.png",

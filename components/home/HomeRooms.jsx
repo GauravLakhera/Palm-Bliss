@@ -383,7 +383,7 @@ export default function RoomsSection() {
   return (
     <section className="bg-[#FBF7F0] py-[3vh] md:py-[12vh] px-3 md:px-[4vw]">
       <div className="text-center space-y-[5vh] mx-auto mb-12">
-        <h2 className="text-[6vw] md:text-[2.8vw] uppercase text-yellow-700/90 font-playfair font-bold  leading-tight">
+        <h2 className="text-[6vw] md:text-[2.8vw] capitalize text-yellow-700/90 font-playfair font-semibold  leading-tight">
           Stay In <span>Harmony & Comfort</span>
         </h2>
         <p className="text-[2vh] md:text-[1.2vw] text-gray-700 leading-relaxed mx-auto">
