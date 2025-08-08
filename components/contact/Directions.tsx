@@ -30,9 +30,9 @@ const Directions = () => {
             transition={{ duration: 0.8 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-playfair font-bold text-black mb-4">
-              Directions to{" "}
-              <span className="text-royal-gold">The Palm Bliss</span>
+            <h2 className="text-4xl md:text-5xl font-playfair font-bold text-yellow-700/90 mb-4">
+              Directions To{" "}
+              <span className="">The Palm Bliss Resort</span>
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Find your way to The Palm Bliss Resort in Uttarakhand with our
@@ -51,14 +51,14 @@ const Directions = () => {
                 <Card className="h-full bg-white border-gray-200 hover:shadow-lg transition-shadow duration-300">
                   <CardContent className="p-8">
                     <div className="flex items-center gap-4 mb-6">
-                      <div className="w-12 h-12 bg-royal-gold rounded-full flex items-center justify-center">
+                      <div className="w-12 h-12 bg-yellow-700/80 rounded-full flex items-center justify-center">
                         <direction.icon className="h-6 w-6 text-white" />
                       </div>
                       <div>
                         <h3 className="text-xl font-playfair font-bold text-black">
                           {direction.title}
                         </h3>
-                        <p className="text-royal-gold font-semibold">
+                        <p className="text-yellow-700/90 font-semibold">
                           {direction.duration}
                         </p>
                       </div>

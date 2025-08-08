@@ -111,7 +111,7 @@ export default function WellnessPackagesSection() {
                     data-aos-delay="50"
                     data-aos-anchor-placement="top-bottom"
                 >
-                    <h2 className="text-4xl md:text-5xl font-serif font-bold text-yellow-700 mb-4">
+                    <h2 className="text-4xl md:text-5xl font-playfair font-semibold text-yellow-700/90 mb-4">
                         Wellness Packages
                     </h2>
                     <p className="text-lg text-gray-600 max-w-2xl mx-auto">

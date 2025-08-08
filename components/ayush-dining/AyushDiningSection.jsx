@@ -39,7 +39,7 @@ export default function AyushDiningSection() {
               <h1 className="text-yellow-700/90 text-5xl lg:text-7xl font-bold leading-tight">
                 Ayush Dining
               </h1>
-              <h2 className="text-yellow-700/70 text-2xl lg:text-3xl font-semibold">
+              <h2 className="text-yellow-700/80 text-2xl lg:text-3xl font-semibold">
                 A Sacred Meal, A Healing Moment
               </h2>
               <p className="text-black text-lg lg:text-xl ">

@@ -221,17 +221,17 @@ const ContactForm = () => {
           >
             <Card className="bg-white border-gray-200 shadow-lg">
               <CardContent className="p-8">
-                <h2 className="text-3xl font-playfair font-bold text-black mb-6">
+                <h2 className="text-3xl font-playfair font-bold text-yellow-700/90 mb-6">
                   {selectedRoom ? (
                     <>
                       Book{" "}
-                      <span className="text-royal-gold">
+                      <span className="text-yellow-700/90">
                         {selectedRoom.title}
                       </span>
                     </>
                   ) : (
                     <>
-                      Send us a <span className="text-royal-gold">Message</span>
+                      Send us a <span className="">Message</span>
                     </>
                   )}
                 </h2>
@@ -321,7 +321,7 @@ const ContactForm = () => {
                   <Button
                     type="submit"
                     size="lg"
-                    className="w-full bg-royal-gold text-black font-semibold"
+                    className="w-full bg-yellow-700/90 text-white font-semibold"
                   >
                     {selectedRoom ? "Book Now" : "Send Message"}
                   </Button>
@@ -338,8 +338,8 @@ const ContactForm = () => {
             className="space-y-8"
           >
             <div>
-              <h2 className="text-3xl font-playfair font-bold text-black mb-6">
-                Get in <span className="text-royal-gold">Touch</span>
+              <h2 className="text-3xl font-playfair font-bold text-yellow-700/90 mb-6">
+                Get in <span className="">Touch</span>
               </h2>
               <p className="text-lg text-gray-600 mb-8">
                 Our dedicated team is available to assist you with reservations,
@@ -357,7 +357,7 @@ const ContactForm = () => {
                   <Card className="h-full bg-gray-50 border-gray-200">
                     <CardContent className="p-6">
                       <div className="flex items-center gap-3 mb-4">
-                        <div className="w-10 h-10 bg-royal-gold rounded-full flex items-center justify-center">
+                        <div className="w-10 h-10 bg-yellow-700/90 rounded-full flex items-center justify-center">
                           <info.icon className="h-5 w-5 text-white" />
                         </div>
                         <h3 className="text-lg font-playfair font-bold text-black">

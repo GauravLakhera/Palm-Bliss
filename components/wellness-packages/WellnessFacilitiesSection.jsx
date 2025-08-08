@@ -64,7 +64,7 @@ export default function WellnessFacilitiesSection() {
         <section className="bg-[#A67A35] py-20 px-4 sm:px-6 overflow-hidden">
             <div className="max-w-7xl mx-auto text-white">
                 <div className="text-center mb-16" >
-                    <h2 className="text-4xl md:text-5xl font-serif font-semibold">
+                    <h2 className="text-4xl md:text-5xl font-playfair font-semibold">
                         Holistic Wellness Treatments
                     </h2>
                     <div
