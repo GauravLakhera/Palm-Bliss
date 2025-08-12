@@ -30,7 +30,7 @@ const values = [
     icon: GiHerbsBundle,
     title: "Ancient Wisdom & Mindful Living",
     desc:
-      "From copper vessels to clay pots, every detail honors ancient wisdom and mindful living.",
+      "Every detail—from ingredient selection to preparation methods—honors ancient wisdom and mindful living, transforming each meal into a healing journey rooted in Ayush traditions.",
     img: "https://i.pinimg.com/736x/58/dd/63/58dd6391d028266da2b5483556cc3775.jpg",
   },
   {
@@ -93,7 +93,7 @@ export default function ValuePropsSection() {
                   <span className="h-11 w-11 flex items-center justify-center rounded-full bg-white shadow ring-2 ring-white/50 mr-4">
                     <Icon className="text-[#A67A35] text-2xl" />
                   </span>
-                  <h3 className="text-xl font-semibold text-gray-900">
+                  <h3 className="text-xl font-semibold text-yellow-700/90">
                     {title}
                   </h3>
                 </div>

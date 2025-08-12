@@ -82,7 +82,7 @@ export default function AyushDiningSection() {
               className="bg-white/70 backdrop-blur-sm p-6 rounded-2xl shadow-lg border border-white/50 hover:shadow-xl transition-all duration-300"
             >
               <div className="flex items-start gap-4">
-                <div className="p-4 bg-yellow-100 rounded-full">
+                <div className="p-4 border border-yellow-700/90 rounded-full">
                   <FaLeaf className="w-6 h-6 text-yellow-600" />
                 </div>
                 <p className="text-gray-800 text-base lg:text-lg leading-relaxed">
@@ -99,12 +99,13 @@ export default function AyushDiningSection() {
               className="bg-white/70 backdrop-blur-sm p-6 rounded-2xl shadow-lg border border-white/50 hover:shadow-xl transition-all duration-300"
             >
               <div className="flex items-start gap-4">
-                <div className="p-4 bg-yellow-100 rounded-full">
+                <div className="p-4  border border-yellow-700/90 rounded-full">
                   <GiBowlOfRice className="w-6 h-6 text-yellow-600" />
                 </div>
                 <p className="text-gray-800 text-base lg:text-lg leading-relaxed">
-                  From copper vessels to clay pots, every detail honors ancient
-                  wisdom and mindful living.
+                  Every detail—from ingredient selection to preparation
+                  methods—honors ancient wisdom and mindful living, transforming
+                  each meal into a healing journey rooted in Ayush traditions.
                 </p>
               </div>
             </motion.div>
@@ -115,7 +116,7 @@ export default function AyushDiningSection() {
               className="bg-white/70 backdrop-blur-sm p-6 rounded-2xl shadow-lg border border-white/50 hover:shadow-xl transition-all duration-300"
             >
               <div className="flex items-start gap-4">
-                <div className="p-4 bg-yellow-100 rounded-full">
+                <div className="p-4  border border-yellow-700/90 rounded-full">
                   <FaSun className="w-6 h-6 text-yellow-600" />
                 </div>
                 <p className="text-gray-800 text-base lg:text-lg leading-relaxed">
@@ -142,7 +143,7 @@ export default function AyushDiningSection() {
               className="bg-gradient-to-br from-white/80 to-yellow-50/80 backdrop-blur-sm p-8 rounded-3xl shadow-xl border border-white/60"
             >
               <div className="flex justify-center mb-4">
-                <div className="p-4 bg-yellow-100 rounded-full">
+                <div className="p-4  rounded-full">
                   <GiMeditation className="w-8 h-8 text-yellow-600" />
                 </div>
               </div>
@@ -154,11 +155,11 @@ export default function AyushDiningSection() {
 
             <motion.div
               whileHover={{ scale: 1.02 }}
-              className="bg-gradient-to-br from-white/80 to-teal-50/80 backdrop-blur-sm p-8 rounded-3xl shadow-xl border border-white/60"
+              className=" backdrop-blur-sm p-8 rounded-3xl shadow-xl border border-white/60"
             >
               <div className="flex justify-center mb-4">
-                <div className="p-4 bg-teal-100 rounded-full">
-                  <FaHeart className="w-8 h-8 text-teal-600" />
+                <div className="p-4  rounded-full">
+                  <FaHeart className="w-8 h-8 text-yellow-700/90" />
                 </div>
               </div>
               <p className="text-gray-800 text-lg lg:text-xl leading-relaxed font-medium">
