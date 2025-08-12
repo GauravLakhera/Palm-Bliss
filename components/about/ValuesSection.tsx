@@ -9,7 +9,7 @@ const values = [
   //   icon: Flower,
   //   title: 'Holistic Wellness',
   //   description:
-  //     'We embrace a mind-body-spirit approach, offering therapies and practices that restore balance and harmony.',
+  //     'We embrace a mind-body-soulapproach, offering therapies and practices that restore balance and harmony.',
   // },
   {
     icon: HeartPulse,

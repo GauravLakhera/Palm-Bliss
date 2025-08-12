@@ -62,7 +62,7 @@ const ALL_ROOMS = [
     detailedContent: {
       title: "Swiss Cottage at Palm Bliss Resort",
       description:
-        "Discover the timeless elegance of our Swiss Cottage, where Alpine warmth meets tropical tranquility. Crafted with rich wooden interiors and vaulted ceilings, each cottage welcomes you with a sense of serene comfort and understated luxury. Sunlight streams through large windows, illuminating handcrafted furniture and creating a warm, inviting glow throughout the space.\n\nStep onto your private balcony, where the gentle rustle of palms and songs of birds create a natural symphony, perfect for a quiet sunrise tea or an evening under the stars. Inside, a plush king-sized bed with soft linens awaits, complemented by cozy seating nooks ideal for reading or reflection. Thoughtfully curated details—woven rugs, soft lighting, and earthy textures—bring the spirit of the Swiss Alps to the heart of your island retreat.\n\n Your en-suite bathroom offers a spa-like experience with a rain shower, premium amenities, and calming design, allowing you to refresh and rejuvenate in privacy.\n\nWhether you are seeking a romantic escape, a slow morning with nature, \n\nTucked amidst whispering palms and fragrant breezes, our Swiss Cottage invites you into a world where alpine warmth meets tropical calm. Crafted with sloping wooden ceilings and sun-kissed windows, each cottage feels like a comforting embrace, welcoming you to slow down and simply be. \n\nWake to soft light filtering through linen drapes as birdsong gently calls you into the day. Step onto your private balcony, where the rustle of leaves and distant mountain whispers create the perfect setting for your morning tea. Inside, the room blends rustic charm with gentle elegance—a plush king-sized bed dressed in crisp linens, handcrafted furniture, and cozy corners designed for quiet reflection or a good book.",
+        "Discover the timeless elegance of our Swiss Cottage, where Alpine warmth meets tropical tranquility. Crafted with rich wooden interiors and vaulted ceilings, each cottage welcomes you with a sense of serene comfort and understated luxury. Sunlight streams through large windows, illuminating handcrafted furniture and creating a warm, inviting glow throughout the space.\n\nStep onto your private balcony, where the gentle rustle of palms and songs of birds create a natural symphony, perfect for a quiet sunrise tea or an evening under the stars. Inside, a plush king-sized bed with soft linens awaits, complemented by cozy seating nooks ideal for reading or reflection. Thoughtfully curated details—woven rugs, soft lighting, and earthy textures—bring the soulof the Swiss Alps to the heart of your island retreat.\n\n Your en-suite bathroom offers a spa-like experience with a rain shower, premium amenities, and calming design, allowing you to refresh and rejuvenate in privacy.\n\nWhether you are seeking a romantic escape, a slow morning with nature, \n\nTucked amidst whispering palms and fragrant breezes, our Swiss Cottage invites you into a world where alpine warmth meets tropical calm. Crafted with sloping wooden ceilings and sun-kissed windows, each cottage feels like a comforting embrace, welcoming you to slow down and simply be. \n\nWake to soft light filtering through linen drapes as birdsong gently calls you into the day. Step onto your private balcony, where the rustle of leaves and distant mountain whispers create the perfect setting for your morning tea. Inside, the room blends rustic charm with gentle elegance—a plush king-sized bed dressed in crisp linens, handcrafted furniture, and cozy corners designed for quiet reflection or a good book.",
       poetry:
         "Whispers of wood and morning light,\nPalms sway softly, hearts feel right.\nA quiet nest where dreams take flight,\nIn cottage calm, the soul grows bright.",
     },
@@ -386,10 +386,13 @@ export default function RoomsSection() {
         <h2 className="text-[6vw] md:text-[2.8vw] capitalize text-yellow-700/90 font-playfair font-semibold  leading-tight">
           Stay In <span>Harmony & Comfort</span>
         </h2>
-        <p className="text-[2vh] md:text-[1.2vw] text-gray-700 leading-relaxed mx-auto">
-          Our rooms are more than a place to rest — they're sanctuaries for deep
-          sleep, holistic healing, and spiritual calm.
-        </p>
+        <div className="font-alegreya italic md:text-[1.2vw]">
+          <p className="text-[2vh] md:text-[1.5vw] text-gray-700 leading-relaxed mx-auto">
+            Our rooms are more than a place to rest —
+          </p>
+          <p >they're sanctuaries for deep sleep</p>
+          <p>holistic healing, and spiritual calm.</p>
+        </div>
       </div>
 
       {/* 2x2 grid, full width */}

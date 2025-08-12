@@ -190,7 +190,7 @@ const items = [
           Thano, where mist-laced trails wind through ancient sal forests,
           echoing with birdsong and the whispers of the breeze.
         </p>
-{/* 
+        {/* 
         <div className="grid md:grid-cols-2 gap-4 mb-4">
           <div className="bg-green-50 p-4 rounded-lg">
             <h4 className="font-bold text-green-800 mb-2">🥾 Trekking</h4>
@@ -336,79 +336,122 @@ const FacilitiesGrid = () => {
           Discover The Unique Experiences At <br className="md:hidden" />
           <span>Palm Bliss</span>
         </h2>
-        <div className="  lg:px-10 py-5 font-inter text-lg leading-relaxed space-y-2 text-start">
-          <p>
+        <div className="lg:px-10 py-2 font-inter text-lg leading-relaxed space-y-3 text-start">
+          <p className="text-gray-800 leading-loose text-center tracking-wide">
             At Palm Bliss Resort with Atharva Ayurveda Wellness Step into a
             sanctuary where every moment is a celebration of stillness, And
             every experience whispers the promise of renewal.
           </p>
 
-          <p>
-            <FaLeaf className="inline-block text-green-700 mr-2" size={20} />
-            Step into a world where time slows down, Where the rustling leaves
-            sing lullabies of peace, And the scent of sacred herbs lingers in
-            the air.
-          </p>
-          <p>
-            <GiMountainCave
-              className="inline-block text-gray-700 mr-2"
-              size={22}
-            />
-            At Palm Bliss Resort, nature holds you in its quiet embrace —
-            Cradled by forest winds, kissed by Himalayan light, and soothed by
-            sacred silence.
-          </p>
-          <p>
-            <FaSun className="inline-block text-yellow-500 mr-2" size={22} />
-            Here, the mornings begin with golden light kissing the hills, And
-            the evenings melt into stillness beneath a sky full of stars. The
-            earth beneath your feet hums with ancient wisdom, And every breeze
-            carries the quiet song of balance and renewal.
-          </p>
-          <p>
-            <MdOutlineNature
-              className="inline-block text-green-500 mr-2"
-              size={22}
-            />
-            Stay wrapped in the warm embrace of nature, Where luxury wears the
-            robe of simplicity, And comfort flows gently like a mountain stream.
-          </p>
-          <p className="text-center italic py-2 text-yellow-700 font-alegreya  text-2xl">
-            At Palm Bliss and Atharva, You don’t just stay — You heal, You
-            breathe, You become whole again.
-          </p>
-          <p>
-            Let your spirit rest. Let your soul rise. Let harmony and comfort
+          <div className="text-center space-y-4 py-3">
+            <div className="flex flex-col items-center gap-4">
+              <FaLeaf className="text-yellow-700/90" size={24} />
+              <div className="italic text-yellow-700/90 leading-loose tracking-wide text-lg lg:text-xl font-alegreya max-w-md">
+                <p>Step into a world where time slows down,</p>
+                <p>Where the rustling leaves sing lullabies of peace,</p>
+                <p>And the scent of sacred herbs lingers in the air.</p>
+              </div>
+            </div>
+
+            <div className="flex flex-col items-center gap-4">
+              <GiMountainCave className="text-yellow-700/90" size={26} />
+              <div className="italic text-yellow-700/90 leading-loose tracking-wide text-lg lg:text-xl font-alegreya max-w-lg">
+                <p>
+                  At Palm Bliss Resort, nature holds you in its quiet embrace —
+                </p>
+                <p>Cradled by forest winds, kissed by Himalayan light,</p>
+                <p>and soothed by sacred silence.</p>
+              </div>
+            </div>
+
+            <div className="flex flex-col items-center gap-4">
+              <FaSun className="text-yellow-700/90" size={26} />
+              <div className="italic text-yellow-700/90 leading-loose tracking-wide text-lg lg:text-xl font-alegreya max-w-2xl">
+                <p>
+                  Here, the mornings begin with golden light kissing the hills,
+                </p>
+                <p>
+                  And the evenings melt into stillness beneath a sky full of
+                  stars.
+                </p>
+                <p>The earth beneath your feet hums with ancient wisdom,</p>
+                <p>
+                  And every breeze carries the quiet song of balance and
+                  renewal.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex flex-col items-center gap-4">
+              <MdOutlineNature className="text-yellow-700/90" size={26} />
+              <div className="italic text-yellow-700/90 leading-loose tracking-wide text-lg lg:text-xl font-alegreya max-w-lg">
+                <p>Stay wrapped in the warm embrace of nature,</p>
+                <p>Where luxury wears the robe of simplicity,</p>
+                <p>And comfort flows gently like a mountain stream.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center py-6">
+            <p className="italic text-yellow-700/90 font-alegreya text-2xl lg:text-3xl leading-tight tracking-wide">
+              At Palm Bliss and Atharva, You don't just stay — You heal, You
+              breathe, You become whole again.
+            </p>
+          </div>
+
+          <p className="text-gray-800 leading-loose tracking-wide italic text-center">
+            Let your soul rest. Let your soul rise. Let harmony and comfort
             become your way of life.
           </p>
-          <p>With Atharva Wellness, ancient healing meets mindful luxury:</p>
-          <ul className="pl-10 list-disc rounded-lg shadow-sm py-3">
-            <li>
-              Awaken your senses with warm herbal therapies and traditional
-              Abhyanga
-            </li>
-            <li>
-              Realign your energy through personalized Panchakarma journeys
-            </li>
-            <li>
-              Meditate beneath whispering trees or practice yoga at sunrise
-            </li>
-            <li>
-              {" "}
-              Nourish your being with pure, sattvic meals grown from the earth
-              around you
-            </li>
-            <li>
-              {" "}
-              Each breath becomes deeper. Each step, lighter. Each day, a
-              retreat into wholeness.
-            </li>
-          </ul>
-          <p>
-            This is more than a stay. It’s a return to balance. A rediscovery of
+
+          <p className="text-gray-800 leading-loose tracking-wide font-medium text-center">
+            With Atharva Wellness, ancient healing meets mindful luxury:
+          </p>
+
+          <div className="bg-yellow-50/30 rounded-xl p-6 text-center shadow-sm border border-yellow-100/50">
+            <ul className="space-y-1 text-gray-800 leading-relaxed tracking-wide">
+              <li className="flex  gap-3">
+                <span className="w-2 h-2 bg-yellow-700/90 rounded-full mt-2 flex-shrink-0"></span>
+                <span>
+                  Awaken your senses with warm herbal therapies and traditional
+                  Abhyanga
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 bg-yellow-700/90 rounded-full mt-2 flex-shrink-0"></span>
+                <span>
+                  Realign your energy through personalized Panchakarma journeys
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 bg-yellow-700/90 rounded-full mt-2 flex-shrink-0"></span>
+                <span>
+                  Meditate beneath whispering trees or practice yoga at sunrise
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 bg-yellow-700/90 rounded-full mt-2 flex-shrink-0"></span>
+                <span>
+                  Nourish your being with pure, sattvic meals grown from the
+                  earth around you
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 bg-yellow-700/90 rounded-full mt-2 flex-shrink-0"></span>
+                <span className="italic">
+                  Each breath becomes deeper. Each step, lighter. Each day, a
+                  retreat into wholeness.
+                </span>
+              </li>
+            </ul>
+          </div>
+
+          <p className="text-gray-800 leading-loose tracking-wide font-medium text-center pt-4">
+            This is more than a stay. It's a return to balance. A rediscovery of
             self. A journey woven with wisdom, warmth, and quiet joy.
           </p>
         </div>
+
         <div className="grid grid-cols-2 md:grid-cols-4 grid-rows-3 gap-4 auto-rows-fr">
           {items.map((item, idx) => (
             <div

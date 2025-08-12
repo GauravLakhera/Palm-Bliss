@@ -7,9 +7,7 @@ import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import {
-  RiShieldStarFill,
-} from "react-icons/ri";
+import { RiShieldStarFill } from "react-icons/ri";
 import { GiIndianPalace, GiWorld, GiHerbsBundle } from "react-icons/gi";
 import { FaLeaf } from "react-icons/fa";
 
@@ -22,30 +20,26 @@ const values = [
   {
     icon: FaLeaf,
     title: "Traditional Pahadi Thalis & Sattvic Delicacies",
-    desc:
-      "Savor traditional Pahadi thalis, sattvic delicacies, and herbal infusions — all prepared with fresh, local ingredients, infused with healing intent.",
+    desc: "Savor traditional Pahadi thalis, sattvic delicacies, and herbal infusions — all prepared with fresh, local ingredients, infused with healing intent.",
     img: "https://i.pinimg.com/1200x/de/12/58/de125845a48533cfa066aedb279bf5db.jpg",
   },
   {
     icon: GiHerbsBundle,
     title: "Ancient Wisdom & Mindful Living",
-    desc:
-      "Every detail—from ingredient selection to preparation methods—honors ancient wisdom and mindful living, transforming each meal into a healing journey rooted in Ayush traditions.",
+    desc: "Every detail—from ingredient selection to preparation methods—honors ancient wisdom and mindful living, transforming each meal into a healing journey rooted in Ayush traditions.",
     img: "https://i.pinimg.com/736x/58/dd/63/58dd6391d028266da2b5483556cc3775.jpg",
   },
   {
     icon: GiWorld,
     title: "Sacred Dining Experience",
-    desc:
-      "Dine under the open sky or in calming, earth-toned interiors — where every bite restores your body, quiets your mind, and uplifts your soul.",
+    desc: "Dine under the open sky or in calming, earth-toned interiors — where every bite restores your body, quiets your mind, and uplifts your soul.",
     img: "/Images/open-dining.webp",
   },
   {
     icon: RiShieldStarFill,
     title: "Nourishment Aligned with Nature",
-    desc:
-      "This isn't just dining. It's nourishment aligned with nature, culture, and your inner rhythm. Welcome to Ayush — where you eat to heal, live to glow.",
-    img:"https://i.pinimg.com/736x/e8/df/88/e8df8852e2ff81c6d9669e15f6af1023.jpg",
+    desc: "This isn't just dining. It's nourishment aligned with nature, culture, and your inner rhythm. Welcome to Ayush — where you eat to heal, live to glow.",
+    img: "https://i.pinimg.com/736x/e8/df/88/e8df8852e2ff81c6d9669e15f6af1023.jpg",
   },
 ];
 
@@ -59,14 +53,21 @@ export default function ValuePropsSection() {
       <div className="max-w-7xl mx-auto">
         <header className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-playfair font-semibold text-yellow-700">
-            A Sacred Meal, A Healing Moment
+            A Sacred Meal
           </h2>
+          <h2 className="text-4xl md:text-5xl pt-1 font-playfair font-semibold text-yellow-700">
+            A Healing Moment
+          </h2>
+          
           <div
             className="mt-4 w-24 h-1 mx-auto"
             style={{ backgroundColor: "#A67A35" }}
           />
           <p className="max-w-3xl mx-auto mt-6 text-lg text-gray-600">
-            Step into Ayush Dining, where food becomes medicine, memory, and meditation. Rooted in Ayurvedic principles and crafted with love, each meal is a celebration of purity, balance, and seasonal nourishment.
+            Step into Ayush Dining, where food becomes medicine, memory, and
+            meditation. Rooted in Ayurvedic principles and crafted with love,
+            each meal is a celebration of purity, balance, and seasonal
+            nourishment.
           </p>
         </header>
 

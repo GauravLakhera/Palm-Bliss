@@ -10,13 +10,15 @@ import HomeGallery from "@/components/home/HomeGallery";
 import Testimonials from "@/components/home/testimonials";
 import FacilitiesGrid from "@/components/home/FacilitiesGrid";
 import  Footer from "@/components/Footer"
+import GallerySection from "@/components/home/GallerySection"
 export default function Home() {
   return (
     <div className="min-h-screen">
       <HeroSection showHeading="true" welcomeHeading="WELCOME" />
       <AboutSection />
       <HomeWellness />
-      <HomeRooms />
+      {/* <HomeRooms /> */}
+      <GallerySection/>
       {/* <HomeYoga /> */}
       <FacilitiesGrid />
       <HomeNaturalPool />
