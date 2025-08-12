@@ -1,21 +1,15 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaLeaf, FaHeart, FaSun } from "react-icons/fa";
-import { GiMeditation, GiLotus, GiBowlOfRice } from "react-icons/gi";
+import { FaLeaf, FaHeart, FaSun, FaUtensils, FaSeedling, FaMountain } from "react-icons/fa";
+import { GiMeditation, GiLotus, GiBowlOfRice, GiFlowerPot, GiTreeBranch, GiDew  } from "react-icons/gi";
+import { MdSpa, MdNaturePeople, MdOutlineEco } from "react-icons/md";
+import { BiLeaf } from "react-icons/bi";
 import Link from "next/link";
 
 export default function AyushDiningSection() {
   return (
     <section className="relative min-h-screen flex py-10 items-center justify-center bg-yellow-50/50 overflow-hidden">
-      {/* Floating background elements */}
-      {/* <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-10 left-10 w-32 h-32 bg-yellow-200/30 rounded-full animate-pulse"></div>
-        <div className="absolute top-1/3 right-16 w-24 h-24 bg-teal-200/40 rounded-full animate-bounce"></div>
-        <div className="absolute bottom-1/4 left-1/4 w-20 h-20 bg-cyan-200/30 rounded-full animate-pulse"></div>
-        <div className="absolute bottom-16 right-20 w-28 h-28 bg-yellow-300/20 rounded-full animate-bounce"></div>
-      </div> */}
-
       <div className="relative z-10 max-w-7xl mx-auto px-4 lg:px-6">
         {/* Hero Section with Side Layout */}
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
@@ -42,15 +36,15 @@ export default function AyushDiningSection() {
               <h2 className="text-yellow-700/80 text-2xl lg:text-3xl font-semibold">
                 A Sacred Meal, A Healing Moment
               </h2>
-              <p className="text-black text-lg lg:text-xl ">
+              {/* <p className="text-black text-lg lg:text-xl ">
                 At Palm Bliss Resort & Atharva Ayurveda Wellness Retreat
-              </p>
+              </p> */}
             </div>
 
             {/* Main Description */}
-            <div className="bg-white/60 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-white/70">
+            <div className="bg-white/60 backdrop-blur-sm px-8 py-4 rounded-2xl shadow-lg border border-white/70">
               <p className="text-gray-800 text-lg lg:text-xl leading-relaxed">
-                Step into Ayush Dining, where food becomes medicine, memory, and
+                Step into Ayush Dining, where food becomes Healthy, memory, and
                 meditation.
               </p>
               <p className="text-yellow-700 text-lg lg:text-xl leading-relaxed mt-4 font-medium">
@@ -137,7 +131,7 @@ export default function AyushDiningSection() {
           className="mt-20 text-center"
         >
           {/* Philosophy Cards */}
-          <div className="grid md:grid-cols-2 gap-8 mb-12">
+          {/* <div className="grid md:grid-cols-2 gap-8 mb-12">
             <motion.div
               whileHover={{ scale: 1.02 }}
               className="bg-gradient-to-br from-white/80 to-yellow-50/80 backdrop-blur-sm p-8 rounded-3xl shadow-xl border border-white/60"
@@ -164,6 +158,156 @@ export default function AyushDiningSection() {
               </div>
               <p className="text-gray-800 text-lg lg:text-xl leading-relaxed font-medium">
                 Welcome to Ayush — where you eat to heal, live to glow.
+              </p>
+            </motion.div>
+          </div> */}
+        </motion.div>
+
+        {/* New Additional Content Sections */}
+        
+        {/* Nourishment for Body & Soul Section */}
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0.8 }}
+          className="mt-20"
+        >
+          <div className="text-center mb-12">
+            <div className="flex items-center justify-center gap-4 mb-6">
+              <MdSpa className="w-8 h-8 text-yellow-600" />
+              <h3 className="text-yellow-700/90 text-4xl lg:text-5xl font-bold">
+                Nourishment for Body & Soul
+              </h3>
+              <MdSpa className="w-8 h-8 text-yellow-600" />
+            </div>
+            <p className="text-gray-800 text-lg lg:text-xl max-w-4xl mx-auto leading-relaxed">
+              Immerse yourself in a culinary journey where every dish is crafted with fresh, local ingredients and ancient wellness wisdom.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            <motion.div
+              whileHover={{ scale: 1.02 }}
+              className="bg-white/70 backdrop-blur-sm p-8 rounded-3xl shadow-lg border border-white/50"
+            >
+              <div className="flex items-center gap-3 mb-4">
+                <FaSeedling className="w-6 h-6 text-yellow-600" />
+                <h4 className="text-yellow-700/90 text-2xl font-bold">
+                  Pure, Wholesome, Natural
+                </h4>
+              </div>
+              <p className="text-gray-800 text-lg leading-relaxed">
+                Experience the goodness of nature on your plate – pure vegetarian, organic, and soul-satisfying meals that celebrate the art of mindful eating.
+              </p>
+            </motion.div>
+
+            <motion.div
+              whileHover={{ scale: 1.02 }}
+              className="bg-white/70 backdrop-blur-sm p-8 rounded-3xl shadow-lg border border-white/50"
+            >
+              <div className="flex items-center gap-3 mb-4">
+                <MdNaturePeople className="w-6 h-6 text-yellow-600" />
+                <h4 className="text-yellow-700/90 text-2xl font-bold">
+                  Where Wellness Meets Flavor
+                </h4>
+              </div>
+              <p className="text-gray-800 text-lg leading-relaxed">
+                Each meal is a quiet symphony of nature's bounty, infused with the wisdom of Ayurveda and the purity of organic harvests.
+              </p>
+            </motion.div>
+          </div>
+        </motion.div>
+
+        {/* Flavors & Harmony Section */}
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 1 }}
+          className="mt-16"
+        >
+          <div className="grid md:grid-cols-3 gap-8">
+            <motion.div
+              whileHover={{ y: -5 }}
+              className="bg-gradient-to-br from-white/80 to-yellow-50/80 backdrop-blur-sm p-6 rounded-2xl shadow-lg border border-white/50"
+            >
+              <div className="flex items-center gap-3 mb-4">
+                <GiFlowerPot className="w-6 h-6 text-yellow-600" />
+                <h4 className="text-yellow-700/90 text-xl font-bold">
+                  Flavors That Heal
+                </h4>
+              </div>
+              <p className="text-gray-800 text-base leading-relaxed">
+                Here, every bite whispers wellness, every sip carries the breath of the mountains, and every plate is a poem of nourishment.
+              </p>
+            </motion.div>
+
+            <motion.div
+              whileHover={{ y: -5 }}
+              className="bg-gradient-to-br from-white/80 to-yellow-50/80 backdrop-blur-sm p-6 rounded-2xl shadow-lg border border-white/50"
+            >
+              <div className="flex items-center gap-3 mb-4">
+                <FaMountain className="w-6 h-6 text-yellow-600" />
+                <h4 className="text-yellow-700/90 text-xl font-bold">
+                  Dining in Harmony
+                </h4>
+              </div>
+              <p className="text-gray-800 text-base leading-relaxed">
+                Beneath the gentle embrace of the Shivalik ranges, we serve not just food, but a celebration of balance, vitality, and peace.
+              </p>
+            </motion.div>
+
+            <motion.div
+              whileHover={{ y: -5 }}
+              className="bg-gradient-to-br from-white/80 to-yellow-50/80 backdrop-blur-sm p-6 rounded-2xl shadow-lg border border-white/50"
+            >
+              <div className="flex items-center gap-3 mb-4">
+                <FaUtensils className="w-6 h-6 text-yellow-600" />
+                <h4 className="text-yellow-700/90 text-xl font-bold">
+                  A Feast for the Senses
+                </h4>
+              </div>
+              <p className="text-gray-800 text-base leading-relaxed">
+                From the first aroma to the final taste, Ayush Dining is a mindful journey—where flavors bloom, hearts feel lighter, and the soul feels at home.
+              </p>
+            </motion.div>
+          </div>
+        </motion.div>
+
+        {/* Final Wellness Section */}
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 1.2 }}
+          className="mt-16 mb-12"
+        >
+          <div className="grid md:grid-cols-2 gap-8">
+            <motion.div
+              whileHover={{ scale: 1.02 }}
+              className="bg-white/60 backdrop-blur-sm p-8 rounded-3xl shadow-xl border border-white/70"
+            >
+              <div className="flex items-center gap-3 mb-4">
+                <GiDew  className="w-6 h-6 text-yellow-600" />
+                <h4 className="text-yellow-700/90 text-2xl font-bold">
+                  A Taste of Wellness
+                </h4>
+              </div>
+              <p className="text-gray-800 text-lg leading-relaxed">
+                From sunrise breakfasts to serene sunset dinners, Ayush Dining offers flavors that heal, energize, and delight.
+              </p>
+            </motion.div>
+
+            <motion.div
+              whileHover={{ scale: 1.02 }}
+              className="bg-white/60 backdrop-blur-sm p-8 rounded-3xl shadow-xl border border-white/70"
+            >
+              <div className="flex items-center gap-3 mb-4">
+                <GiTreeBranch className="w-6 h-6 text-yellow-600" />
+                <h4 className="text-yellow-700/90 text-2xl font-bold">
+                  Nature-Inspired Flavors
+                </h4>
+              </div>
+              <p className="text-gray-800 text-lg leading-relaxed">
+                Savor food prepared with love, guided by Ayurveda and served in the calming ambience of our wellness retreat.
               </p>
             </motion.div>
           </div>
