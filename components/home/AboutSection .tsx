@@ -109,10 +109,10 @@ const AboutSection = () => {
           The healing touch of simplicity, And the power of syndrome silence — a
           state where stillness speaks and stress dissolves.
           <ul>
-            <h1>Palm Bliss and Atharva are not just destinations —</h1>
-            <li>They are experiences.</li>
-            <li>They are memories waiting to be lived,</li>
-            <li>Stories written in soil, soul, and serenity.</li>
+            <p>Palm Bliss and Atharva are not just destinations —</p>
+            <li className="font-alegreya italic text-xl font-light mt-2">They are experiences.</li>
+            <li className="font-alegreya italic text-xl font-light">They are memories waiting to be lived,</li>
+            <li className="font-alegreya italic text-xl font-light">Stories written in soil, soul, and serenity.</li>
           </ul>
         </motion.p>
 

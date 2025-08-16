@@ -53,21 +53,20 @@ export default function ValuePropsSection() {
       <div className="max-w-7xl mx-auto">
         <header className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-playfair font-semibold text-yellow-700">
-            A Sacred Meal
+            Nourishment for Body
           </h2>
           <h2 className="text-4xl md:text-5xl pt-1 font-playfair font-semibold text-yellow-700">
-            A Healing Moment
+            Medicine for Soul
           </h2>
-          
+
           <div
             className="mt-4 w-24 h-1 mx-auto"
             style={{ backgroundColor: "#A67A35" }}
           />
           <p className="max-w-3xl mx-auto mt-6 text-lg text-gray-600">
-            Step into Ayush Dining, where food becomes medicine, memory, and
-            meditation. Rooted in Ayurvedic principles and crafted with love,
-            each meal is a celebration of purity, balance, and seasonal
-            nourishment.
+            Experience the art of mindful dining where every meal is a
+            meditation, every ingredient carries healing wisdom, and every bite
+            connects you deeper to nature's abundance and your inner well-being.
           </p>
         </header>
 

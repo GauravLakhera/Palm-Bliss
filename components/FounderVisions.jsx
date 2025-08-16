@@ -153,7 +153,7 @@ export default function FounderVisions({ founders }) {
         <p className="text-justify text-md md:text-lg text-black leading-relaxed font-normal">
           At Palm Bliss, the food served follows the path of Atharva —{" "}
           <span className="font-bold text-yellow-700">
-            pure, organic, sattvic vegetarian meals
+            pure, natural, sattvic vegetarian meals
           </span>{" "}
           — gently prepared with love and balance, using ingredients that
           nourish and detoxify the body naturally.

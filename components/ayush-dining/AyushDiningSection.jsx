@@ -51,14 +51,34 @@ export default function AyushDiningSection() {
             </div>
 
             {/* Main Description */}
-            <div className="bg-white/60 backdrop-blur-sm px-8 py-6 rounded-2xl shadow-lg border border-white/70 max-w-4xl">
+            <div className="bg-white/60 backdrop-blur-sm px-8 py-3 rounded-2xl shadow-lg border border-white/70 max-w-4xl">
               <p className="text-gray-800 text-lg lg:text-xl leading-relaxed tracking-wide">
-                Step into Ayush Dining, where food becomes Healthy, memory, and
+                Step into Ayush Dining, where food becomes healthy, memory, and
                 meditation.
               </p>
-              <p className="text-yellow-700 text-lg lg:text-xl leading-relaxed mt-6 font-medium tracking-wide">
-                Rooted in Ayurvedic principles and crafted with love, each meal
-                is a celebration of purity, balance and seasonal nourishment.
+              <p className="text-gray-800  text-lg lg:text-xl leading-relaxed mt-6 font-light tracking-wide">
+                At Ayush Dining, every meal is a soulful ritual. Set against the
+                tranquil embrace of the Shivalik ranges, our open-air dining
+                space welcomes you with the scent of fresh herbs, the golden
+                glow of evening light, and the gentle hum of nature
+              </p>
+              <p className="text-gray-800  text-lg lg:text-xl leading-relaxed mt-6 font-light tracking-wide">
+                Each plate is a work of art—organic vegetables picked at their
+                freshest, whole grains rich in earth’s energy, and spices chosen
+                for their healing touch. Guided by the ancient wisdom of
+                Ayurveda, our chefs craft dishes that balance body, awaken the
+                senses, and uplift the spirit.
+              </p>
+              <p className="text-gray-800  text-lg lg:text-xl leading-relaxed mt-6 font-light tracking-wide">
+                Here, dining becomes a meditation. You savor slowly, listen
+                deeply—to the laughter around you, the rustle of leaves, and the
+                whisper of the mountain breeze. Every sip of herbal tea warms
+                the soul, every bite nourishes from within, and every shared
+                moment becomes a memory of peace.
+              </p>
+              <p className="text-yellow-700 text-lg lg:text-xl leading-relaxed mt-6 font-light tracking-wide">
+                At Palm Bliss, we believe a meal should not just fill the
+                stomach, but also heal the heart.
               </p>
             </div>
 
@@ -109,7 +129,11 @@ export default function AyushDiningSection() {
             >
               <div className="grid md:grid-cols-2 items-center">
                 <div className="p-5 flex items-center justify-center bg-gradient-to-br from-yellow-50/50 to-yellow-100/30">
-                 <img src="/images/ayush-dining/11.png" className="h-[14rem] w-full object-cover" alt="a" />
+                  <img
+                    src="/images/ayush-dining/11.png"
+                    className="h-[14rem] w-full object-cover"
+                    alt="a"
+                  />
                 </div>
                 <div className="p-5">
                   <h4 className="text-yellow-700/90 text-2xl font-bold leading-tight mb-6">
@@ -117,7 +141,7 @@ export default function AyushDiningSection() {
                   </h4>
                   <p className="text-gray-800 text-lg leading-relaxed tracking-wide">
                     Experience the goodness of nature on your plate – pure
-                    vegetarian, organic, and soul-satisfying meals that
+                    vegetarian, natural, and soul-satisfying meals that
                     celebrate the art of mindful eating.
                   </p>
                 </div>
@@ -141,7 +165,11 @@ export default function AyushDiningSection() {
                   </p>
                 </div>
                 <div className="p-5 flex items-center justify-center bg-gradient-to-br from-yellow-50/50 to-yellow-100/30">
-                  <img src="https://images.pexels.com/photos/5182119/pexels-photo-5182119.jpeg" className="h-[14rem] w-full object-cover" alt="a" />
+                  <img
+                    src="https://images.pexels.com/photos/5182119/pexels-photo-5182119.jpeg"
+                    className="h-[14rem] w-full object-cover"
+                    alt="a"
+                  />
                 </div>
               </div>
             </motion.div>
@@ -163,7 +191,11 @@ export default function AyushDiningSection() {
             >
               <div className="grid md:grid-cols-2 items-center">
                 <div className="p-5 flex items-center justify-center bg-gradient-to-br from-yellow-50/50 to-yellow-100/30">
-                   <img src="https://images.pexels.com/photos/6694164/pexels-photo-6694164.jpeg" className="h-[14rem] w-full object-cover" alt="a" />
+                  <img
+                    src="https://images.pexels.com/photos/6694164/pexels-photo-6694164.jpeg"
+                    className="h-[14rem] w-full object-cover"
+                    alt="a"
+                  />
                 </div>
                 <div className="p-5">
                   <h4 className="text-yellow-700/90 text-xl font-bold leading-tight mb-6">
@@ -195,7 +227,11 @@ export default function AyushDiningSection() {
                   </p>
                 </div>
                 <div className="p-5 flex items-center justify-center bg-gradient-to-br from-yellow-50/50 to-yellow-100/30">
-                   <img src="/images/ayush-dining/11.png" className="h-[14rem] w-full object-cover" alt="a" />
+                  <img
+                    src="/images/gallery/13.webp"
+                    className="h-[14rem] w-full object-cover"
+                    alt="a"
+                  />
                 </div>
               </div>
             </motion.div>
@@ -207,7 +243,11 @@ export default function AyushDiningSection() {
             >
               <div className="grid md:grid-cols-2 items-center">
                 <div className="p-5 flex items-center justify-center bg-gradient-to-br from-yellow-50/50 to-yellow-100/30">
-                   <img src="/images/ayush-dining/11.png" className="h-[14rem] w-full object-cover" alt="a" />
+                  <img
+                    src="https://cdn.pixabay.com/photo/2021/06/28/14/06/rice-6371739_1280.jpg"
+                    className="h-[14rem] w-full object-cover"
+                    alt="a"
+                  />
                 </div>
                 <div className="p-5">
                   <h4 className="text-yellow-700/90 text-xl font-bold leading-tight mb-6">
@@ -239,7 +279,11 @@ export default function AyushDiningSection() {
             >
               <div className="grid md:grid-cols-2 items-center">
                 <div className="p-5 flex items-center justify-center bg-gradient-to-br from-yellow-50/50 to-yellow-100/30">
-                   <img src="/images/ayush-dining/11.png" className="h-[14rem] w-full object-cover" alt="a" />
+                  <img
+                    src="/images/ayush-dining/11.png"
+                    className="h-[14rem] w-full object-cover"
+                    alt="a"
+                  />
                 </div>
                 <div className="p-5">
                   <h4 className="text-yellow-700/90 text-2xl font-bold leading-tight mb-6">
@@ -269,7 +313,11 @@ export default function AyushDiningSection() {
                   </p>
                 </div>
                 <div className="p-5 flex items-center justify-center bg-gradient-to-br from-yellow-50/50 to-yellow-100/30">
-                    <img src="/images/ayush-dining/11.png" className="h-[14rem] w-full object-cover" alt="a" />
+                  <img
+                    src="https://cdn.pixabay.com/photo/2022/02/25/22/59/pestle-7034940_1280.jpg"
+                    className="h-[14rem] w-full object-cover"
+                    alt="a"
+                  />
                 </div>
               </div>
             </motion.div>

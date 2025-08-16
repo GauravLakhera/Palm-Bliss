@@ -128,7 +128,7 @@ export default function HomeWellness() {
 
 Step into a sanctuary where time-honored Ayurvedic wisdom meets contemporary wellness. Our Signature Ayurvedic Rituals are more than treatments — they are soulful experiences designed to restore balance, energize the body, and soothe the spirit.
 
-Rooted in centuries-old practices, each ritual is thoughtfully customized to your unique dosha (body constitution) and guided by our seasoned Ayurvedic practitioners. Using pure, organic ingredients, therapeutic oils, and traditional techniques, these rituals invoke deep healing from within.
+Rooted in centuries-old practices, each ritual is thoughtfully customized to your unique dosha (body constitution) and guided by our seasoned Ayurvedic practitioners. Using pure, natural ingredients, therapeutic oils, and traditional techniques, these rituals invoke deep healing from within.
 
 Each journey begins with a personalized consultation to understand your body's needs, followed by rituals crafted using traditional methods and plant-based remedies that honor the authentic soulof Ayurveda.
 

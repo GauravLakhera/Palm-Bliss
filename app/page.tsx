@@ -22,7 +22,7 @@ export default function Home() {
       {/* <HomeYoga /> */}
       <FacilitiesGrid />
       <HomeNaturalPool />
-      <HomeGallery />
+      {/* <HomeGallery /> */}
       <Testimonials />
       <Footer/>
       {/* <ViewsSection /> */}

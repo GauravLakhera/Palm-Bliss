@@ -123,7 +123,7 @@ const items = [
   },
   {
     title: "Ayush Dining",
-    image: "/Images/AllPhotos/ayushDining.webp",
+    image: "/Images/gallery/13.webp",
     description:
       "Savor wholesome, healthy meals crafted with Ayurvedic principles, nourishing your well-being.",
     detailedDescription:
@@ -408,45 +408,30 @@ const FacilitiesGrid = () => {
             With Atharva Wellness, ancient healing meets mindful luxury:
           </p>
 
-          <div className="bg-yellow-50/30 rounded-xl p-6 text-center shadow-sm border border-yellow-100/50">
-            <ul className="space-y-1 text-gray-800 leading-relaxed tracking-wide">
-              <li className="flex  gap-3">
-                <span className="w-2 h-2 bg-yellow-700/90 rounded-full mt-2 flex-shrink-0"></span>
-                <span>
-                  Awaken your senses with warm herbal therapies and traditional
-                  Abhyanga
-                </span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-yellow-700/90 rounded-full mt-2 flex-shrink-0"></span>
-                <span>
-                  Realign your energy through personalized Panchakarma journeys
-                </span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-yellow-700/90 rounded-full mt-2 flex-shrink-0"></span>
-                <span>
-                  Meditate beneath whispering trees or practice yoga at sunrise
-                </span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-yellow-700/90 rounded-full mt-2 flex-shrink-0"></span>
-                <span>
-                  Nourish your being with pure, sattvic meals grown from the
-                  earth around you
-                </span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-yellow-700/90 rounded-full mt-2 flex-shrink-0"></span>
-                <span className="italic">
-                  Each breath becomes deeper. Each step, lighter. Each day, a
-                  retreat into wholeness.
-                </span>
-              </li>
-            </ul>
+          <div className="bg-yellow-50/30 rounded-xl px-6 text-center shadow-sm border border-yellow-100/50">
+            <div className="space-y-1 text-gray-800 leading-relaxed tracking-wide">
+              <p>
+                Awaken your senses with warm herbal therapies and traditional
+                Abhyanga
+              </p>
+              <p>
+                Realign your energy through personalized Panchakarma journeys
+              </p>
+              <p>
+                Meditate beneath whispering trees or practice yoga at sunrise
+              </p>
+              <p>
+                Nourish your being with pure, sattvic meals grown from the earth
+                around you
+              </p>
+              <p className="italic">
+                Each breath becomes deeper. Each step, lighter. Each day, a
+                retreat into wholeness.
+              </p>
+            </div>
           </div>
 
-          <p className="text-gray-800 leading-loose tracking-wide font-medium text-center pt-4">
+          <p className="text-gray-800 leading-loose tracking-wide font-medium text-center py-4">
             This is more than a stay. It's a return to balance. A rediscovery of
             self. A journey woven with wisdom, warmth, and quiet joy.
           </p>

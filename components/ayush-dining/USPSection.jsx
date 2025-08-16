@@ -19,7 +19,7 @@ export default function USPSection() {
         {
             icon: RiPlantFill,
             title: "Natural food",
-            desc: "Every ingredient is handpicked from our certified organic permaculture gardens. We use zero chemical fertilizers or pesticides, ensuring pure nutrition and environmental sustainability in every bite.",
+            desc: "Every ingredient is handpicked from our certified natural permaculture gardens. We use zero chemical fertilizers or pesticides, ensuring pure nutrition and environmental sustainability in every bite.",
             hoverEffect: "hover:shadow-organic",
             iconColor: "text-[#4CAF50]",
             bgColor: "bg-[#E8F5E9]"

@@ -170,7 +170,7 @@ export default function AyushWellnessProgramSection() {
                       Experience sattvic food that heals from within, served with love and mountain air
                     </p>
                     <p className="text-black/80 text-sm leading-relaxed mb-3">
-                      Nourish your body with carefully prepared meals using organic, locally sourced ingredients that balance your doshas. Each dish is mindfully crafted according to Ayurvedic principles to support your healing journey and enhance digestive fire.
+                      Nourish your body with carefully prepared meals using natural, locally sourced ingredients that balance your doshas. Each dish is mindfully crafted according to Ayurvedic principles to support your healing journey and enhance digestive fire.
                     </p>
                     <p className="text-black/75 text-sm leading-relaxed mb-2">
                       Our kitchen follows traditional cooking methods using copper vessels, wood-fired stoves, and seasonal ingredients. Meals include healing spices like turmeric, ginger, and cumin, with options for various dietary restrictions and detox protocols.
