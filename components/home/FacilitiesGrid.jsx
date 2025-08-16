@@ -104,9 +104,9 @@ const items = [
           serene surroundings.
         </p>
 
-        <div className="bg-green-50 border-l-4 border-green-500 p-4 mb-4">
-          <h4 className="font-bold text-green-800 mb-2">What's Included:</h4>
-          <ul className="list-disc list-inside text-green-700 space-y-1">
+        <div className=" p-4 mb-4">
+          <h4 className="font-bold  mb-2">What's Included:</h4>
+          <ul className="list-disc list-inside  space-y-1">
             <li>Daily sunrise yoga sessions</li>
             <li>Personalized Ayurvedic consultations</li>
             <li>Traditional meditation practices</li>
@@ -210,7 +210,7 @@ const items = [
           </div>
         </div> */}
 
-        <blockquote className="italic text-gray-600 border-l-4 border-green-500 pl-4">
+        <blockquote className="italic text-gray-600  pl-4">
           "Just steps from Palm Bliss Resort, this walk into the wild leads you
           through emerald canopies, hidden streams, and the earthy scent of
           rain-kissed leaves, reconnecting your soul with the untouched rhythms
@@ -332,7 +332,7 @@ const FacilitiesGrid = () => {
   return (
     <section className="p-4 md:p-8 overflow-hidden" id="facilities">
       <div className=" w-full md:max-w-7xl mx-auto">
-        <h2 className="text-4xl md:text-5xl  font-semibold text-yellow-700/90 mb-12 text-center  tracking-tight leading-tight">
+        <h2 className="text-4xl md:text-5xl  font-semibold text-yellow-700/90 mb-2 text-center  tracking-tight leading-tight">
           Discover The Unique Experiences At <br className="md:hidden" />
           <span>Palm Bliss</span>
         </h2>
@@ -392,7 +392,7 @@ const FacilitiesGrid = () => {
             </div>
           </div>
 
-          <div className="text-center py-6">
+          <div className="text-center py-3">
             <p className="italic text-yellow-700/90 font-alegreya text-2xl lg:text-3xl leading-tight tracking-wide">
               At Palm Bliss and Atharva, You don't just stay — You heal, You
               breathe, You become whole again.
@@ -449,7 +449,7 @@ const FacilitiesGrid = () => {
               }}
               className={`
                 relative rounded-2xl overflow-hidden shadow-xl
-                flex items-end p-3 md:p-6
+                flex items-end p-3 md:p-4
                 transition-all duration-500 ease-in-out
                 transform hover:scale-[1.02] hover:shadow-2xl
                 group cursor-pointer
@@ -467,14 +467,17 @@ const FacilitiesGrid = () => {
                 style={{ objectFit: "cover" }}
                 className="absolute inset-0 z-0 group-hover:opacity-100 transition-opacity duration-500"
               />
-              <div className="absolute inset-0 z-10 bg-gradient-to-t from-black/70 via-black/10 to-transparent"></div>
-              <div className="relative z-20 text-white md:p-2">
+              <div className="absolute inset-0 z-10 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+              <div className="relative z-20 text-white ">
                 <h3 className="text-xl md:text-2xl font-sans font-bold mb-2 drop-shadow-md">
                   {item.title}
                 </h3>
                 <p className="text-sm text-gray-200 leading-relaxed drop-shadow-sm">
                   {item.description}
                 </p>
+                <button className="px-2 py-1 text-sm bg-yellow-700 mt-2 text-white rounded">
+                  Learn More
+                </button>
               </div>
             </div>
           ))}
