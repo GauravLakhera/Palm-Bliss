@@ -130,7 +130,7 @@ export default function AyushDiningSection() {
               <div className="grid md:grid-cols-2 items-center">
                 <div className="p-5 flex items-center justify-center bg-gradient-to-br from-yellow-50/50 to-yellow-100/30">
                   <img
-                    src="/images/ayush-dining/11.png"
+                    src="/Images/ayush-dining/11.png"
                     className="h-[14rem] w-full object-cover"
                     alt="a"
                   />
@@ -228,7 +228,7 @@ export default function AyushDiningSection() {
                 </div>
                 <div className="p-5 flex items-center justify-center bg-gradient-to-br from-yellow-50/50 to-yellow-100/30">
                   <img
-                    src="/images/gallery/13.webp"
+                    src="/Images/gallery/13.webp"
                     className="h-[14rem] w-full object-cover"
                     alt="a"
                   />
@@ -280,7 +280,7 @@ export default function AyushDiningSection() {
               <div className="grid md:grid-cols-2 items-center">
                 <div className="p-5 flex items-center justify-center bg-gradient-to-br from-yellow-50/50 to-yellow-100/30">
                   <img
-                    src="/images/ayush-dining/11.png"
+                    src="/Images/ayush-dining/11.png"
                     className="h-[14rem] w-full object-cover"
                     alt="a"
                   />
